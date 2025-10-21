@@ -7,6 +7,7 @@ import { discogsClient } from './services/discogsClient';
 import { importDiscogsCollection } from './services/discogsImport';
 import { SortField } from './types/Vinyl';
 import { parseBBCode } from './utils/bbcodeParser';
+import { cleanArtistName } from './utils/artistNameCleaner';
 
 function App() {
   const {
@@ -96,13 +97,32 @@ function App() {
     setFilters({ searchTerm: '' });
   };
 
+  // Go to homepage
+  const goToHomepage = () => {
+    setActiveTab('collection');
+    backToCollection();
+    clearSearch();
+  };
+
+  // Filter by artist
+  const filterByArtist = (artist: string) => {
+    const cleanedArtist = cleanArtistName(artist);
+    setActiveTab('collection');
+    backToCollection();
+    setSearchInput(cleanedArtist);
+    setFilters({ searchTerm: cleanedArtist });
+  };
+
   return (
     <div className="min-h-screen bg-tron-bg">
       {/* Header */}
       <header className="bg-tron-bg-light/95 backdrop-blur-sm border-b border-tron-cyan/30 sticky top-0 z-50 shadow-tron-glow">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex items-center justify-between">
-            <div className="flex items-center gap-3">
+            <button
+              onClick={goToHomepage}
+              className="flex items-center gap-3 hover:opacity-80 transition-opacity cursor-pointer"
+            >
               <Disc3 className="w-8 h-8 text-tron-cyan" />
               <div>
                 <h1 className="text-2xl font-bold bg-gradient-to-r from-tron-cyan to-tron-pink bg-clip-text text-transparent drop-shadow-lg">
@@ -117,7 +137,7 @@ function App() {
                   )}
                 </p>
               </div>
-            </div>
+            </button>
 
             <div className="flex items-center gap-2">
               <button
@@ -278,7 +298,12 @@ function App() {
                 <div className="space-y-4">
                   <div>
                     <h2 className="text-3xl font-bold text-white mb-2">{selectedVinyl.title}</h2>
-                    <p className="text-xl text-tron-cyan">{selectedVinyl.artist}</p>
+                    <button
+                      onClick={() => filterByArtist(selectedVinyl.artist)}
+                      className="text-xl text-tron-cyan hover:text-tron-orange transition-colors"
+                    >
+                      {cleanArtistName(selectedVinyl.artist)}
+                    </button>
                   </div>
 
                   <div className="grid grid-cols-2 gap-4 text-sm">
@@ -422,6 +447,7 @@ function App() {
                       key={vinyl.id}
                       vinyl={vinyl}
                       onClick={() => setSelectedVinyl(vinyl)}
+                      onArtistClick={filterByArtist}
                     />
                   ))}
                 </div>

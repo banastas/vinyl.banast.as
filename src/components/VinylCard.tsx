@@ -2,15 +2,25 @@ import React from 'react';
 import { Vinyl } from '../types/Vinyl';
 import { Disc3, TrendingUp, TrendingDown, DollarSign } from 'lucide-react';
 import { ResponsiveImage } from './ResponsiveImage';
+import { cleanArtistName } from '../utils/artistNameCleaner';
 
 interface VinylCardProps {
   vinyl: Vinyl;
   onClick: () => void;
+  onArtistClick?: (artist: string) => void;
 }
 
-export const VinylCard: React.FC<VinylCardProps> = ({ vinyl, onClick }) => {
+export const VinylCard: React.FC<VinylCardProps> = ({ vinyl, onClick, onArtistClick }) => {
   const gainLoss = vinyl.gainLoss || 0;
   const hasGainLoss = vinyl.gainLoss !== undefined && vinyl.purchasePrice !== undefined;
+  const cleanedArtist = cleanArtistName(vinyl.artist);
+
+  const handleArtistClick = (e: React.MouseEvent) => {
+    e.stopPropagation(); // Prevent card click
+    if (onArtistClick) {
+      onArtistClick(vinyl.artist);
+    }
+  };
 
   return (
     <div
@@ -63,9 +73,12 @@ export const VinylCard: React.FC<VinylCardProps> = ({ vinyl, onClick }) => {
       {/* Info Section */}
       <div className="p-3">
         {/* Artist Name */}
-        <div className="text-xs text-tron-cyan font-medium mb-1 truncate">
-          {vinyl.artist}
-        </div>
+        <button
+          onClick={handleArtistClick}
+          className="text-xs text-tron-cyan font-medium mb-1 truncate hover:text-tron-orange transition-colors w-full text-left"
+        >
+          {cleanedArtist}
+        </button>
 
         {/* Album Title */}
         <div className="text-sm font-bold text-white mb-2 line-clamp-2 min-h-[2.5rem]">
