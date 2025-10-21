@@ -14,10 +14,23 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Configuration
-const DISCOGS_TOKEN = process.env.DISCOGS_TOKEN || 'jDfZllVMahoZvOMUkEPDzdoEqsirWAVzNfoFFqwY';
-const DISCOGS_USERNAME = 'banastas';
-const VINYL_FOLDER_ID = 7559246; // "Vinyl" folder - excludes CDs
+// Configuration - REQUIRED: Set these environment variables
+const DISCOGS_TOKEN = process.env.DISCOGS_TOKEN;
+const DISCOGS_USERNAME = process.env.DISCOGS_USERNAME;
+const VINYL_FOLDER_ID = process.env.VINYL_FOLDER_ID || 7559246; // Default: "Vinyl" folder
+
+// Validate required environment variables
+if (!DISCOGS_TOKEN) {
+  console.error('❌ Error: DISCOGS_TOKEN environment variable is required');
+  console.error('   Set it in .env file or run: export DISCOGS_TOKEN=your_token_here');
+  process.exit(1);
+}
+
+if (!DISCOGS_USERNAME) {
+  console.error('❌ Error: DISCOGS_USERNAME environment variable is required');
+  console.error('   Set it in .env file or run: export DISCOGS_USERNAME=your_username');
+  process.exit(1);
+}
 const API_URL = 'https://api.discogs.com';
 const OUTPUT_FILE = path.join(__dirname, 'src', 'data', 'vinyls.json');
 
