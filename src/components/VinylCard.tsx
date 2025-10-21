@@ -15,10 +15,10 @@ export const VinylCard: React.FC<VinylCardProps> = ({ vinyl, onClick }) => {
   return (
     <div
       onClick={onClick}
-      className="group relative bg-gray-800/50 backdrop-blur-sm rounded-lg overflow-hidden shadow-lg hover:shadow-2xl hover:shadow-purple-500/20 transition-all duration-300 cursor-pointer border border-gray-700/50 hover:border-purple-500/50"
+      className="group relative bg-tron-bg-lighter/50 backdrop-blur-sm rounded-lg overflow-hidden shadow-lg hover:shadow-2xl hover:shadow-tron-cyan/20 transition-all duration-300 cursor-pointer border border-tron-border/50 hover:border-tron-cyan/50"
     >
       {/* Cover Image */}
-      <div className="relative aspect-square overflow-hidden bg-gray-900">
+      <div className="relative aspect-square overflow-hidden bg-tron-bg">
         {vinyl.coverImageUrl ? (
           <ResponsiveImage
             src={vinyl.coverImageUrl}
@@ -37,7 +37,7 @@ export const VinylCard: React.FC<VinylCardProps> = ({ vinyl, onClick }) => {
             {vinyl.mediaCondition}
           </div>
           {vinyl.colorVariant && (
-            <div className="bg-purple-500/90 backdrop-blur-sm rounded px-2 py-1 text-xs font-medium text-white">
+            <div className="bg-tron-pink/90 backdrop-blur-sm rounded px-2 py-1 text-xs font-medium text-white">
               Colored
             </div>
           )}
@@ -63,7 +63,7 @@ export const VinylCard: React.FC<VinylCardProps> = ({ vinyl, onClick }) => {
       {/* Info Section */}
       <div className="p-3">
         {/* Artist Name */}
-        <div className="text-xs text-purple-400 font-medium mb-1 truncate">
+        <div className="text-xs text-tron-cyan font-medium mb-1 truncate">
           {vinyl.artist}
         </div>
 
@@ -73,15 +73,15 @@ export const VinylCard: React.FC<VinylCardProps> = ({ vinyl, onClick }) => {
         </div>
 
         {/* Details Row */}
-        <div className="flex items-center justify-between text-xs text-gray-400 mb-2">
+        <div className="flex items-center justify-between text-xs text-tron-text-dim mb-2">
           <span>{vinyl.releaseYear}</span>
           <span>{vinyl.format[0]}</span>
         </div>
 
         {/* Price Info */}
-        <div className="flex items-center justify-between pt-2 border-t border-gray-700">
+        <div className="flex items-center justify-between pt-2 border-t border-tron-border">
           {vinyl.purchasePrice !== undefined && (
-            <div className="text-xs text-gray-400">
+            <div className="text-xs text-tron-text-dim">
               Paid: ${vinyl.purchasePrice.toFixed(0)}
             </div>
           )}
@@ -95,7 +95,7 @@ export const VinylCard: React.FC<VinylCardProps> = ({ vinyl, onClick }) => {
 
         {/* Label */}
         {vinyl.label && (
-          <div className="text-xs text-gray-500 mt-2 truncate">
+          <div className="text-xs text-tron-text-dim mt-2 truncate">
             {vinyl.label}
           </div>
         )}

@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Tron 1980s Theme - Dark with Cyan/Neon Accents */
+:root {
+  --tron-bg-primary: #0a0e27;
+  --tron-bg-secondary: #0f1729;
+  --tron-bg-tertiary: #151d3b;
+  --tron-cyan: #00d9ff;
+  --tron-cyan-dim: #0099cc;
+  --tron-orange: #ff6c00;
+  --tron-pink: #ff00ff;
+  --tron-text-primary: #e0f7ff;
+  --tron-text-secondary: #8bb8d9;
+  --tron-text-dim: #5a7a94;
+  --tron-border: #1a3a52;
+  --tron-glow: rgba(0, 217, 255, 0.3);
+}
+
+body {
+  background: var(--tron-bg-primary);
+  color: var(--tron-text-primary);
+}
