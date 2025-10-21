@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useVinylStore } from './stores/vinylStore';
-import { Dashboard } from './components/Dashboard';
+import { VinylDashboard } from './components/VinylDashboard';
 import { VinylCard } from './components/VinylCard';
 import { Disc3, BarChart3, Download, RefreshCw, Search, X, ArrowUpDown } from 'lucide-react';
 import { discogsClient } from './services/discogsClient';
@@ -387,7 +387,7 @@ function App() {
             </div>
           </div>
         ) : activeTab === 'stats' ? (
-          <Dashboard stats={stats} />
+          <VinylDashboard stats={stats} />
         ) : (
           <div className="space-y-6">
             {vinyls.length === 0 ? (

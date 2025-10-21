@@ -154,8 +154,19 @@ const applyFilters = (
       bValue = 0;
     }
 
+    // Primary sort
     if (aValue < bValue) return sortDirection === 'asc' ? -1 : 1;
     if (aValue > bValue) return sortDirection === 'asc' ? 1 : -1;
+
+    // Secondary sort: When sorting by artist or title, sort by release year (earliest first)
+    if (sortField === 'artist' || sortField === 'title') {
+      const aYear = a.releaseYear || 0;
+      const bYear = b.releaseYear || 0;
+      if (aYear !== bYear) {
+        return aYear - bYear; // Always ascending (earliest first)
+      }
+    }
+
     return 0;
   });
 
