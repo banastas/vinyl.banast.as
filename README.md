@@ -1,6 +1,6 @@
 # vinyl.banast.as 🎵
 
-A sleek, Tron-themed vinyl record collection manager with Discogs API integration, real-time marketplace pricing, and manual purchase price tracking.
+A sleek vinyl record collection manager with Discogs API integration, real-time marketplace pricing, and manual purchase price tracking.
 
 **Live at:** [vinyl.banast.as](https://vinyl.banast.as)
 
