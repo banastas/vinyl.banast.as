@@ -132,7 +132,7 @@ function App() {
                   {stats.totalRecords} {stats.totalRecords === 1 ? 'record' : 'records'}
                   {stats.totalCurrentValue > 0 && (
                     <span className="ml-2">
-                      • ${stats.totalCurrentValue.toLocaleString()}
+                      • {stats.totalCurrentValue.toLocaleString('en-US', { style: 'currency', currency: 'USD', minimumFractionDigits: 0, maximumFractionDigits: 0 })}
                     </span>
                   )}
                 </p>
