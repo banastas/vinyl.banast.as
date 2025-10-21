@@ -17,6 +17,7 @@ const __dirname = path.dirname(__filename);
 // Configuration
 const DISCOGS_TOKEN = process.env.DISCOGS_TOKEN || 'jDfZllVMahoZvOMUkEPDzdoEqsirWAVzNfoFFqwY';
 const DISCOGS_USERNAME = 'banastas';
+const VINYL_FOLDER_ID = 7559246; // "Vinyl" folder - excludes CDs
 const API_URL = 'https://api.discogs.com';
 const OUTPUT_FILE = path.join(__dirname, 'src', 'data', 'vinyls.json');
 
@@ -154,7 +155,12 @@ async function importCollection() {
     console.log('Testing authentication...');
     const user = await makeRequest(`/users/${DISCOGS_USERNAME}`);
     console.log(`✓ Authenticated as ${user.username}`);
-    console.log(`  Collection size: ${user.num_collection} records\n`);
+
+    // Get folder info
+    const foldersData = await makeRequest(`/users/${DISCOGS_USERNAME}/collection/folders`);
+    const vinylFolder = foldersData.folders.find(f => f.id === VINYL_FOLDER_ID);
+    console.log(`  Vinyl folder: "${vinylFolder.name}" (ID: ${VINYL_FOLDER_ID})`);
+    console.log(`  Vinyl records: ${vinylFolder.count}\n`);
 
     // Get collection
     console.log('Fetching collection...');
@@ -165,7 +171,7 @@ async function importCollection() {
     while (hasMore) {
       console.log(`  Fetching page ${page}...`);
       const response = await makeRequest(
-        `/users/${DISCOGS_USERNAME}/collection/folders/0/releases?page=${page}&per_page=100`
+        `/users/${DISCOGS_USERNAME}/collection/folders/${VINYL_FOLDER_ID}/releases?page=${page}&per_page=100`
       );
 
       const total = response.pagination.items;

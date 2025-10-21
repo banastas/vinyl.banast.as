@@ -60,7 +60,7 @@ function App() {
     try {
       const importedVinyls = await importDiscogsCollection(
         username,
-        0, // folder ID 0 = "All" collection
+        7559246, // "Vinyl" folder - excludes CDs
         (current, total, item) => {
           setImportProgress({ current, total, item });
         }

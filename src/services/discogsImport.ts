@@ -105,10 +105,14 @@ export function mapDiscogsReleaseToVinyl(
 
 /**
  * Import a user's Discogs collection
+ *
+ * @param username - Discogs username
+ * @param folderId - Folder ID to import from (default: 7559246 for "Vinyl" folder, excluding CDs)
+ * @param onProgress - Progress callback
  */
 export async function importDiscogsCollection(
   username: string,
-  folderId: number = 0,
+  folderId: number = 7559246, // Default to "Vinyl" folder, excludes CDs
   onProgress?: (current: number, total: number, item: string) => void
 ): Promise<Omit<Vinyl, 'id' | 'createdAt' | 'updatedAt'>[]> {
   const vinyls: Omit<Vinyl, 'id' | 'createdAt' | 'updatedAt'>[] = [];
