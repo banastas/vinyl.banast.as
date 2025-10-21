@@ -1,6 +1,7 @@
 import { create } from 'zustand';
 import { Vinyl, VinylStats, SortField, SortDirection, FilterOptions, VinylCondition } from '../types/Vinyl';
 import { saveVinylsToStorage, loadVinylsFromStorage } from '../utils/vinylStorage';
+import vinylsData from '../data/vinyls.json';
 
 // Helper to get condition rank for sorting
 const getConditionRank = (condition: VinylCondition): number => {
@@ -251,9 +252,9 @@ const defaultFilters: FilterOptions = {
 };
 
 export const useVinylStore = create<VinylStore>((set, get) => {
-  // Try to load from localStorage first
+  // Try to load from localStorage first, fallback to vinyls.json
   const storedVinyls = loadVinylsFromStorage();
-  const initialVinyls: Vinyl[] = storedVinyls || [];
+  const initialVinyls: Vinyl[] = storedVinyls || (vinylsData as Vinyl[]);
   const initialFilteredVinyls = applyFilters(initialVinyls, defaultFilters, 'purchaseDate', 'desc');
 
   return {
