@@ -415,7 +415,14 @@ function App() {
             </div>
           </div>
         ) : activeTab === 'stats' ? (
-          <VinylDashboard stats={stats} />
+          <VinylDashboard
+            stats={stats}
+            onVinylClick={(vinyl) => {
+              setSelectedVinyl(vinyl);
+              setActiveTab('collection');
+            }}
+            onArtistClick={filterByArtist}
+          />
         ) : (
           <div className="space-y-6">
             {vinyls.length === 0 ? (

@@ -1,12 +1,14 @@
 import React from 'react';
-import { VinylStats } from '../types/Vinyl';
+import { Vinyl, VinylStats } from '../types/Vinyl';
 import { Disc3, DollarSign, TrendingUp, TrendingDown, Award, Calendar, Package } from 'lucide-react';
 
 interface VinylDashboardProps {
   stats: VinylStats;
+  onVinylClick?: (vinyl: Vinyl) => void;
+  onArtistClick?: (artist: string) => void;
 }
 
-export const VinylDashboard: React.FC<VinylDashboardProps> = ({ stats }) => {
+export const VinylDashboard: React.FC<VinylDashboardProps> = ({ stats, onVinylClick, onArtistClick }) => {
   const formatCurrency = (amount: number) => {
     return new Intl.NumberFormat('en-US', {
       style: 'currency',
@@ -107,8 +109,18 @@ export const VinylDashboard: React.FC<VinylDashboardProps> = ({ stats }) => {
                 <Award className="w-5 h-5 text-tron-orange" />
                 <h3 className="text-sm font-medium text-tron-text-dim uppercase">Highest Value</h3>
               </div>
-              <div className="text-tron-cyan font-medium mb-1">{stats.highestValuedRecord.artist}</div>
-              <div className="text-white text-sm mb-2">{stats.highestValuedRecord.title}</div>
+              <button
+                onClick={() => onArtistClick?.(stats.highestValuedRecord!.artist)}
+                className="text-tron-cyan font-medium mb-1 hover:text-tron-orange transition-colors text-left w-full"
+              >
+                {stats.highestValuedRecord.artist}
+              </button>
+              <button
+                onClick={() => onVinylClick?.(stats.highestValuedRecord!)}
+                className="text-white text-sm mb-2 hover:text-tron-cyan transition-colors text-left w-full"
+              >
+                {stats.highestValuedRecord.title}
+              </button>
               <div className="text-2xl font-bold text-tron-orange">
                 {formatCurrency(stats.highestValuedRecord.estimatedValue || 0)}
               </div>
@@ -121,8 +133,18 @@ export const VinylDashboard: React.FC<VinylDashboardProps> = ({ stats }) => {
                 <TrendingUp className="w-5 h-5 text-green-400" />
                 <h3 className="text-sm font-medium text-tron-text-dim uppercase">Biggest Gainer</h3>
               </div>
-              <div className="text-tron-cyan font-medium mb-1">{stats.biggestGainer.artist}</div>
-              <div className="text-white text-sm mb-2">{stats.biggestGainer.title}</div>
+              <button
+                onClick={() => onArtistClick?.(stats.biggestGainer!.artist)}
+                className="text-tron-cyan font-medium mb-1 hover:text-tron-orange transition-colors text-left w-full"
+              >
+                {stats.biggestGainer.artist}
+              </button>
+              <button
+                onClick={() => onVinylClick?.(stats.biggestGainer!)}
+                className="text-white text-sm mb-2 hover:text-tron-cyan transition-colors text-left w-full"
+              >
+                {stats.biggestGainer.title}
+              </button>
               <div className="text-2xl font-bold text-green-400">
                 +{formatCurrency(stats.biggestGainer.gainLoss || 0)}
               </div>
@@ -135,8 +157,18 @@ export const VinylDashboard: React.FC<VinylDashboardProps> = ({ stats }) => {
                 <TrendingDown className="w-5 h-5 text-red-400" />
                 <h3 className="text-sm font-medium text-tron-text-dim uppercase">Biggest Loser</h3>
               </div>
-              <div className="text-tron-cyan font-medium mb-1">{stats.biggestLoser.artist}</div>
-              <div className="text-white text-sm mb-2">{stats.biggestLoser.title}</div>
+              <button
+                onClick={() => onArtistClick?.(stats.biggestLoser!.artist)}
+                className="text-tron-cyan font-medium mb-1 hover:text-tron-orange transition-colors text-left w-full"
+              >
+                {stats.biggestLoser.artist}
+              </button>
+              <button
+                onClick={() => onVinylClick?.(stats.biggestLoser!)}
+                className="text-white text-sm mb-2 hover:text-tron-cyan transition-colors text-left w-full"
+              >
+                {stats.biggestLoser.title}
+              </button>
               <div className="text-2xl font-bold text-red-400">
                 {formatCurrency(stats.biggestLoser.gainLoss)}
               </div>
