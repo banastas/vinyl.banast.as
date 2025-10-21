@@ -12,19 +12,17 @@ export default defineConfig({
           'react-vendor': ['react', 'react-dom'],
           // Lucide icons
           'icons': ['lucide-react'],
-          // Comic data and utilities
-          'data': ['./src/data/comics.json'],
-          // Hooks and utilities
+          // Vinyl data
+          'data': ['./src/data/vinyls.json'],
+          // Utilities
           'utils': [
-            './src/hooks/useComics.ts',
-            './src/utils/performance.ts'
+            './src/utils/bbcodeParser.ts',
+            './src/utils/artistNameCleaner.ts'
           ],
           // Core components
           'components': [
-            './src/components/Dashboard.tsx',
-            './src/components/ComicCard.tsx',
-            './src/components/ComicListView.tsx',
-            './src/components/FilterControls.tsx',
+            './src/components/VinylDashboard.tsx',
+            './src/components/VinylCard.tsx',
             './src/components/TouchTarget.tsx',
             './src/components/FluidTypography.tsx',
             './src/components/LoadingSkeleton.tsx',
