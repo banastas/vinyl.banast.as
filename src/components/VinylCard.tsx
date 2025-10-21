@@ -101,7 +101,7 @@ export const VinylCard: React.FC<VinylCardProps> = ({ vinyl, onClick, onArtistCl
           {vinyl.estimatedValue !== undefined && (
             <div className="flex items-center gap-1 text-xs font-medium text-green-400">
               <DollarSign className="w-3 h-3" />
-              <span>${vinyl.estimatedValue.toFixed(0)}</span>
+              <span>{vinyl.estimatedValue.toFixed(0)}</span>
             </div>
           )}
         </div>
