@@ -503,18 +503,26 @@ export const useVinylStore = create<VinylStore>((set, get) => {
       const totalInvestment = vinylsWithEstimatedValue.reduce((sum, v) => sum + (v.purchasePrice || 0), 0);
       const totalGainLossPercentage = totalInvestment > 0 ? (totalGainLoss / totalInvestment) * 100 : 0;
 
-      // Find biggest gainer and loser
-      const biggestGainer = vinylsWithEstimatedValue.reduce((biggest, v) => {
-        const gain = v.gainLoss || 0;
-        const biggestGain = biggest?.gainLoss || -Infinity;
-        return gain > biggestGain ? v : biggest;
-      }, null as Vinyl | null);
+      // Find biggest gainer and loser (only include records with purchase price and actual gains/losses)
+      const vinylsWithGainLoss = vinylsWithEstimatedValue.filter(v =>
+        v.purchasePrice !== undefined && v.gainLoss !== undefined
+      );
 
-      const biggestLoser = vinylsWithEstimatedValue.reduce((biggest, v) => {
-        const loss = v.gainLoss || 0;
-        const biggestLoss = biggest?.gainLoss || Infinity;
-        return loss < biggestLoss ? v : biggest;
-      }, null as Vinyl | null);
+      const biggestGainer = vinylsWithGainLoss
+        .filter(v => (v.gainLoss || 0) > 0)
+        .reduce((biggest, v) => {
+          const gain = v.gainLoss || 0;
+          const biggestGain = biggest?.gainLoss || 0;
+          return gain > biggestGain ? v : biggest;
+        }, null as Vinyl | null);
+
+      const biggestLoser = vinylsWithGainLoss
+        .filter(v => (v.gainLoss || 0) < 0)
+        .reduce((biggest, v) => {
+          const loss = v.gainLoss || 0;
+          const biggestLoss = biggest?.gainLoss || 0;
+          return loss < biggestLoss ? v : biggest;
+        }, null as Vinyl | null);
 
       // Condition breakdown
       const conditionCounts = state.vinyls.reduce((counts, v) => {
