@@ -567,6 +567,9 @@ export const useVinylStore = create<VinylStore>((set, get) => {
         limitedEditionCount: state.vinyls.filter(v =>
           v.tags.includes('limited edition') || v.notes.toLowerCase().includes('limited')
         ).length,
+        uniqueArtists: new Set(state.vinyls.map(v => v.artist)).size,
+        uniqueLabels: new Set(state.vinyls.map(v => v.label).filter(l => l)).size,
+        uniqueGenres: new Set(state.vinyls.flatMap(v => v.genres || [])).size,
       };
     },
 
