@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discogs API Test</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #1a1a1a;
+            color: #fff;
+        }
+        .container {
+            background: #2a2a2a;
+            border-radius: 8px;
+            padding: 30px;
+        }
+        h1 {
+            color: #a855f7;
+            margin-bottom: 30px;
+        }
+        .test-section {
+            margin: 20px 0;
+            padding: 15px;
+            background: #1a1a1a;
+            border-radius: 4px;
+        }
+        .test-result {
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 4px;
+        }
+        .success {
+            background: #065f46;
+            border-left: 4px solid #10b981;
+        }
+        .error {
+            background: #7f1d1d;
+            border-left: 4px solid #ef4444;
+        }
+        .info {
+            background: #1e3a8a;
+            border-left: 4px solid #3b82f6;
+        }
+        button {
+            background: linear-gradient(135deg, #a855f7, #ec4899);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+            margin: 10px 5px;
+        }
+        button:hover {
+            opacity: 0.9;
+        }
+        button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+        pre {
+            background: #000;
+            padding: 15px;
+            border-radius: 4px;
+            overflow-x: auto;
+            font-size: 12px;
+        }
+        .loading {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid #a855f7;
+            border-top: 3px solid transparent;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎵 Discogs API Connection Test</h1>
+
+        <div class="test-section">
+            <h3>Configuration</h3>
+            <div id="config-status"></div>
+        </div>
+
+        <div class="test-section">
+            <h3>Tests</h3>
+            <button onclick="testConnection()">Test Connection</button>
+            <button onclick="testCollection()">Get Collection</button>
+            <button onclick="testRateLimit()">Check Rate Limits</button>
+            <div id="test-results"></div>
+        </div>
+    </div>
+
+    <script type="module">
+        // Discogs API credentials (from your .env file)
+        const DISCOGS_TOKEN = 'jDfZllVMahoZvOMUkEPDzdoEqsirWAVzNfoFFqwY';
+        const DISCOGS_USERNAME = 'banastas';
+        const API_URL = 'https://api.discogs.com';
+
+        // Display configuration status
+        document.getElementById('config-status').innerHTML = `
+            <div class="test-result info">
+                <strong>Token:</strong> ${DISCOGS_TOKEN ? '✓ Found' : '✗ Missing'}<br>
+                <strong>Username:</strong> ${DISCOGS_USERNAME || '✗ Not set'}<br>
+                <strong>API URL:</strong> ${API_URL}
+            </div>
+        `;
+
+        let rateLimitInfo = {
+            limit: 60,
+            used: 0,
+            remaining: 60
+        };
+
+        function updateRateLimitDisplay() {
+            const rateLimitDiv = document.getElementById('rate-limit-info');
+            if (rateLimitDiv) {
+                rateLimitDiv.innerHTML = `
+                    <div class="test-result info">
+                        <strong>Rate Limit:</strong> ${rateLimitInfo.used} / ${rateLimitInfo.limit} requests used<br>
+                        <strong>Remaining:</strong> ${rateLimitInfo.remaining} requests
+                    </div>
+                `;
+            }
+        }
+
+        async function makeDiscogsRequest(endpoint) {
+            const response = await fetch(`${API_URL}${endpoint}`, {
+                headers: {
+                    'Authorization': `Discogs token=${DISCOGS_TOKEN}`,
+                    'User-Agent': 'VinylBanastAs/1.0 +https://vinyl.banast.as'
+                }
+            });
+
+            // Extract rate limit headers
+            if (response.headers.get('x-discogs-ratelimit')) {
+                rateLimitInfo = {
+                    limit: parseInt(response.headers.get('x-discogs-ratelimit'), 10),
+                    used: parseInt(response.headers.get('x-discogs-ratelimit-used'), 10),
+                    remaining: parseInt(response.headers.get('x-discogs-ratelimit-remaining'), 10)
+                };
+                updateRateLimitDisplay();
+            }
+
+            if (!response.ok) {
+                throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+            }
+
+            return await response.json();
+        }
+
+        window.testConnection = async function() {
+            const resultsDiv = document.getElementById('test-results');
+            resultsDiv.innerHTML = '<div class="test-result info"><div class="loading"></div> Testing connection...</div>';
+
+            try {
+                const user = await makeDiscogsRequest(`/users/${DISCOGS_USERNAME}`);
+
+                resultsDiv.innerHTML = `
+                    <div class="test-result success">
+                        <strong>✓ Connection Successful!</strong><br><br>
+                        <strong>User:</strong> ${user.username}<br>
+                        <strong>Collection Size:</strong> ${user.num_collection} records<br>
+                        <strong>Wantlist Size:</strong> ${user.num_wantlist} records<br>
+                        <strong>Member Since:</strong> ${new Date(user.registered).toLocaleDateString()}
+                    </div>
+                    <div id="rate-limit-info"></div>
+                `;
+                updateRateLimitDisplay();
+            } catch (error) {
+                resultsDiv.innerHTML = `
+                    <div class="test-result error">
+                        <strong>✗ Connection Failed</strong><br>
+                        Error: ${error.message}
+                    </div>
+                `;
+            }
+        };
+
+        window.testCollection = async function() {
+            const resultsDiv = document.getElementById('test-results');
+            resultsDiv.innerHTML = '<div class="test-result info"><div class="loading"></div> Fetching collection...</div>';
+
+            try {
+                const collection = await makeDiscogsRequest(`/users/${DISCOGS_USERNAME}/collection/folders/0/releases?page=1&per_page=5`);
+
+                let html = `
+                    <div class="test-result success">
+                        <strong>✓ Collection Retrieved!</strong><br>
+                        <strong>Total Records:</strong> ${collection.pagination.items}<br>
+                        <strong>First 5 records:</strong>
+                    </div>
+                `;
+
+                collection.releases.forEach((item, index) => {
+                    const info = item.basic_information;
+                    html += `
+                        <div class="test-result info">
+                            <strong>${index + 1}.</strong> ${info.artists[0]?.name || 'Unknown'} - ${info.title}<br>
+                            <small>Year: ${info.year || 'N/A'} | Format: ${info.formats[0]?.name || 'N/A'}</small>
+                        </div>
+                    `;
+                });
+
+                html += '<div id="rate-limit-info"></div>';
+                resultsDiv.innerHTML = html;
+                updateRateLimitDisplay();
+            } catch (error) {
+                resultsDiv.innerHTML = `
+                    <div class="test-result error">
+                        <strong>✗ Failed to retrieve collection</strong><br>
+                        Error: ${error.message}
+                    </div>
+                `;
+            }
+        };
+
+        window.testRateLimit = function() {
+            const resultsDiv = document.getElementById('test-results');
+            resultsDiv.innerHTML = `
+                <div class="test-result ${rateLimitInfo.remaining > 10 ? 'success' : 'error'}">
+                    <strong>Rate Limit Status</strong><br>
+                    <strong>Limit:</strong> ${rateLimitInfo.limit} requests/minute<br>
+                    <strong>Used:</strong> ${rateLimitInfo.used}<br>
+                    <strong>Remaining:</strong> ${rateLimitInfo.remaining}<br>
+                    <br>
+                    <small>${rateLimitInfo.remaining > 10 ? '✓ Plenty of requests remaining' : '⚠ Low on requests, wait a bit'}</small>
+                </div>
+            `;
+        };
+
+        // Auto-test connection on load
+        setTimeout(() => {
+            testConnection();
+        }, 500);
+    </script>
+</body>
+</html>

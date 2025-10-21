@@ -1,0 +1,169 @@
+🎵 Starting Discogs collection import...
+
+Username: banastas
+Token: jDfZ...FqwY
+
+Testing authentication...
+✓ Authenticated as banastas
+  Collection size: 119 records
+
+Fetching collection...
+  Fetching page 1...
+  Got 100 releases (100/119)
+    Importing: RZA - Ghost Dog: The Way Of The Samurai (Music From The Motion Picture)... ✓
+    Importing: Various - Jackie Brown (Music From The Miramax Motion Picture)... ✓
+    Importing: Soundgarden - Badmotorfinger... ✓
+    Importing: The Chemical Brothers - Brotherhood... ✓
+    Importing: Daft Punk - Alive 2007... ✓
+    Importing: Various - The Crow (Original Motion Picture Soundtrack)... ✓
+    Importing: Justice (3) - Neverender... ✓
+    Importing: NOFX - BYO Split Series / Volume III... ✓
+    Importing: Ramonetures - Ramonetures... ✓
+    Importing: Ramonetures - Johny Walk Don't Run Paulene... ✓
+    💾 Progress saved (10 records)
+    Importing: La Femme (4) - Mystère... ✓
+    Importing: Death Before Dishonor - Master Of None... ✓
+    Importing: Death Before Dishonor - Count Me In... ✓
+    Importing: Haim (2) - Days Are Gone... ✓
+    Importing: Haim (2) - Something To Tell You... ✓
+    Importing: Pharrell Williams - G I R L... ✓
+    Importing: Daft Punk - Random Access Memories (10th Anniversary Edition)... ✓
+    Importing: Bill Hicks - Intricate Stories... ✓
+    Importing: Sam Kinison - Breaking The Rules... ✓
+    Importing: Social Distortion - Live At The Roxy ... ✓
+    💾 Progress saved (20 records)
+    Importing: Daft Punk - Discovery = ディスカバリー... ✓
+    Importing: Sarah Schachner - Prey (Original Soundtrack)... ✓
+    Importing: Andrew "Dice" Clay - The Day The Laughter Died... ✓
+    Importing: Beastie Boys - Licensed To Ill... ✓
+    Importing: LCD Soundsystem - LCD Soundsystem... ✓
+    Importing: Nirvana - Incesticide... ✓
+    Importing: Cold War Kids - Robbers & Cowards... ✓
+    Importing: Cold War Kids - Hold My Home... ✓
+    Importing: Cold War Kids - Hold My Home... ✓
+    Importing: Charles Bradley - No Time For Dreaming...
+  ⏳ Rate limited. Waiting 65s before retry 1/3...
+ ✓
+    💾 Progress saved (30 records)
+    Importing: The Black Keys - Ohio Players... ✓
+    Importing: Justice (3) - Hyperdrama... ✓
+    Importing: Various - Hackers²... ✓
+    Importing: Various - Hackers Soundtrack... ✓
+    Importing: Chase & Status - 2 Ruff Vol. 1... ✓
+    Importing: Chase & Status - 2 Ruff Vol. 1... ✓
+    Importing: Various - Lost In Translation (Music From The Motion Picture Soundtrack)... ✓
+    Importing: Rage Against The Machine - Rage Against The Machine... ✓
+    Importing: Pennywise - Full Circle... ✓
+    Importing: Rancid - Let's Go... ✓
+    💾 Progress saved (40 records)
+    Importing: Rancid - ...And Out Come The Wolves... ✓
+    Importing: Wisdom In Chains - Class War... ✓
+    Importing: Wisdom In Chains - Class War ( 15th Anniversary Deluxe Edition )... ✓
+    Importing: NOFX - Wolves In Wolves' Clothing... ✓
+    Importing: Face To Face - Don't Turn Away... ✓
+    Importing: The Genius - Liquid Swords... ✓
+    Importing: Weezer - Weezer... ✓
+    Importing: Nirvana - Live At The Paramount... ✓
+    Importing: Justice (3) - Hyperdrama... ✓
+    Importing: Brant Bjork - Saved By Magic Again... ✓
+    💾 Progress saved (50 records)
+    Importing: Lars Frederiksen And The Bastards - Lars Frederiksen And The Bastards... ✓
+    Importing: Dropkick Murphys - Blackout... ✓
+    Importing: Lars Frederiksen And The Bastards - Viking... ✓
+    Importing: Various - Give 'Em The Boot VII... ✓
+    Importing: Operation Ivy - Energy... ✓
+    Importing: Raye (3) - My 21st Century Blues ... ✓
+    Importing: Girl Talk - Feed The Animals... ✓
+    Importing: Girl Talk - All Day... ✓
+    Importing: Tame Impala - Currents... ✓
+    Importing: Medium Build - Country... ✓
+    💾 Progress saved (60 records)
+    Importing: Bob Marley & The Wailers - Legend (The Best Of Bob Marley And The Wailers)...
+  ⏳ Rate limited. Waiting 65s before retry 1/3...
+ ✓
+    Importing: Sigur Rós - Ágætis Byrjun... ✓
+    Importing: Various - Judgment Night (Music From The Motion Picture)... ✓
+    Importing: Orbital - Orbital (The Brown Album)... ✓
+    Importing: DJ Shadow - The Mountain Will Fall... ✓
+    Importing: Deftones - Around The Fur... ✓
+    Importing: Deftones - Adrenaline... ✓
+    Importing: The Prodigy - The Fat Of The Land... ✓
+    Importing: Puya - Live In Puerto Rico... ✓
+    Importing: Ex Hex - It's Real... ✓
+    💾 Progress saved (70 records)
+    Importing: NOFX - Tabasco In Your Mouth... ✓
+    Importing: M83 - Oblivion (Original Motion Picture Soundtrack)... ✓
+    Importing: Daft Punk - TRON: Legacy (Vinyl Edition Motion Picture Soundtrack)... ✓
+    Importing: Toots & The Maytals - In The Dark... ✓
+    Importing: X (5) - Under The Big Black Sun... ✓
+    Importing: Vision Of Disorder - Vision Of Disorder... ✓
+    Importing: Chaos Chaos - Committed To The Crime... ✓
+    Importing: M83 - Hurry Up, We're Dreaming.... ✓
+    Importing: M83 - Hurry Up, We're Dreaming.... ✓
+    Importing: M83 - Saturdays = Youth... ✓
+    💾 Progress saved (80 records)
+    Importing: AFI - Black Sails In The Sunset... ✓
+    Importing: Red Kult - Call Me... ✓
+    Importing: The Old Firm Casuals - For The Love Of It All....... ✓
+    Importing: C2C - Tetra... ✓
+    Importing: M83 - A Necessary Escape (Dakar Chronicles Original Soundtrack)... ✓
+    Importing: AIR - Moon Safari... ✓
+    Importing: St Germain - Tourist... ✓
+    Importing: Lars Frederiksen And The Bastards - Lars Frederiksen And The Bastards... ✓
+    Importing: Lars Frederiksen And The Bastards - Viking... ✓
+    Importing: The Old Firm Casuals - Holger Danske... ✓
+    💾 Progress saved (90 records)
+    Importing: The Old Firm Casuals - This Means War... ✓
+    Importing: The Old Firm Casuals - A Butchers Banquet... ✓
+    Importing: Lars Frederiksen - To Victory... ✓
+    Importing: Misfits - Legacy Of Brutality... ✓
+    Importing: Alex Metric - Open Your Eyes (Remixes & Productions)...
+  ⏳ Rate limited. Waiting 65s before retry 1/3...
+ ✓
+    Importing: Deftones - Private Music... ✓
+    Importing: Deftones - Private Music... ✓
+    Importing: Deftones - B-Sides & Rarities... ✓
+    Importing: Black Sabbath - Black Sabbath... ✓
+    Importing: Toto - Toto IV... ✓
+    💾 Progress saved (100 records)
+  Fetching page 2...
+  Got 19 releases (119/119)
+    Importing: Calva Louise - Over The Threshold... ✓
+    Importing: Amyl and The Sniffers - U Should Not Be Doing That / Facts... ✓
+    Importing: Russian Circles - Empros... ✓
+    Importing: Run The Jewels - Run The Jewels 2... ✓
+    Importing: Medium Build - Health... ✓
+    Importing: Daft Punk - Homework... ✓
+    Importing: Måneskin - Teatro D'Ira - Vol.I... ✓
+    Importing: Mogwai - Rave Tapes... ✓
+    Importing: Public Service Broadcasting - The Race For Space... ✓
+    Importing: Nine Inch Nails - Tron: Ares (Original Motion Picture Soundtrack)... ✓
+    💾 Progress saved (110 records)
+    Importing: Bob Marley & The Wailers - Uprising... ✓
+    Importing: DJ Shadow - Endtroducing...... ✓
+    Importing: Ben Harper - Fight For Your Mind... ✓
+    Importing: Amyl and The Sniffers - Cartoon Darkness... ✓
+    Importing: Daft Punk - TRON: Legacy Reconfigured... ✓
+    Importing: Dethklok - The Dethalbum... ✓
+    Importing: Dethklok - The Dethalbum... ✓
+    Importing: Tool (2) - Ænima... ✓
+    Importing: Aleksi Perälä - Парадокс = Paradox... ✓
+
+Saving 119 records to /Users/banastas/GitHub/vinyl.banast.as/src/data/vinyls.json...
+✓ Saved!
+
+📊 Import Summary:
+  Total records: 119
+  With prices: 0
+  With cover art: 119
+  Genres: 11
+  Labels: 81
+  Artists: 76
+
+✅ Import complete!
+
+Next steps:
+  1. Run: npm run dev
+  2. Open: http://localhost:5173
+  3. View your collection!
+
