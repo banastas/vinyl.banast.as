@@ -29,6 +29,7 @@ function App() {
 
   const [isImporting, setIsImporting] = useState(false);
   const [searchInput, setSearchInput] = useState('');
+  const [hasDiscogsToken, setHasDiscogsToken] = useState(false);
 
   // Initialize Discogs client on mount
   useEffect(() => {
@@ -37,9 +38,10 @@ function App() {
 
     if (token && username) {
       discogsClient.authenticate(token, username);
+      setHasDiscogsToken(true);
       console.log('✓ Discogs client authenticated');
     } else {
-      console.warn('⚠ Discogs credentials not found. Please set VITE_DISCOGS_TOKEN and VITE_DISCOGS_USERNAME in .env');
+      console.warn('⚠ Discogs credentials not found. Import from Discogs will be disabled.');
     }
   }, []);
 
@@ -134,23 +136,25 @@ function App() {
                 <BarChart3 className="w-5 h-5" />
                 <span className="hidden sm:inline">Stats</span>
               </button>
-              <button
-                onClick={handleImportFromDiscogs}
-                disabled={isImporting}
-                className="px-4 py-2 bg-gradient-to-r from-purple-600 to-pink-600 text-white rounded-lg font-medium hover:from-purple-700 hover:to-pink-700 transition-all shadow-lg hover:shadow-purple-500/50 disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-2"
-              >
-                {isImporting ? (
-                  <>
-                    <RefreshCw className="w-5 h-5 animate-spin" />
-                    <span className="hidden sm:inline">Importing...</span>
-                  </>
-                ) : (
-                  <>
-                    <Download className="w-5 h-5" />
+              {hasDiscogsToken && (
+                <button
+                  onClick={handleImportFromDiscogs}
+                  disabled={isImporting}
+                  className="px-4 py-2 bg-gradient-to-r from-purple-600 to-pink-600 text-white rounded-lg font-medium hover:from-purple-700 hover:to-pink-700 transition-all shadow-lg hover:shadow-purple-500/50 disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-2"
+                >
+                  {isImporting ? (
+                    <>
+                      <RefreshCw className="w-5 h-5 animate-spin" />
+                      <span className="hidden sm:inline">Importing...</span>
+                    </>
+                  ) : (
+                    <>
+                      <Download className="w-5 h-5" />
                     <span className="hidden sm:inline">Import</span>
                   </>
                 )}
-              </button>
+                </button>
+              )}
             </div>
           </div>
 
