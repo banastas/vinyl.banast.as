@@ -187,9 +187,9 @@ export const VinylDashboard: React.FC<VinylDashboardProps> = ({ stats }) => {
         </div>
         <div className="bg-tron-bg-lighter/80 backdrop-blur-sm rounded-lg p-4 border border-tron-border text-center">
           <div className="text-2xl font-bold text-tron-cyan mb-1">
-            {stats.coloredVinylCount}
+            {stats.recordsWithCurrentValue}
           </div>
-          <div className="text-xs text-tron-text-dim uppercase">Colored Vinyl</div>
+          <div className="text-xs text-tron-text-dim uppercase">With Pricing</div>
         </div>
       </div>
     </div>
