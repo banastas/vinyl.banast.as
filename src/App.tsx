@@ -152,7 +152,10 @@ function App() {
                 <span className="hidden sm:inline">Collection</span>
               </button>
               <button
-                onClick={() => setActiveTab('stats')}
+                onClick={() => {
+                  setActiveTab('stats');
+                  backToCollection(); // Clear selectedVinyl
+                }}
                 className={`px-4 py-2 rounded-lg font-medium transition-colors flex items-center gap-2 ${
                   activeTab === 'stats'
                     ? 'bg-tron-cyan text-white'
