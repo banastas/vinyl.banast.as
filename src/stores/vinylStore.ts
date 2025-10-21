@@ -262,10 +262,26 @@ const defaultFilters: FilterOptions = {
   firstPressingOnly: false,
 };
 
+// Helper to calculate gain/loss for vinyls
+const calculateGainLoss = (vinyls: Vinyl[]): Vinyl[] => {
+  return vinyls.map(vinyl => {
+    if (vinyl.purchasePrice !== undefined && vinyl.estimatedValue !== undefined) {
+      const gainLoss = vinyl.estimatedValue - vinyl.purchasePrice;
+      const gainLossPercentage = vinyl.purchasePrice > 0
+        ? (gainLoss / vinyl.purchasePrice) * 100
+        : 0;
+      return { ...vinyl, gainLoss, gainLossPercentage };
+    }
+    return vinyl;
+  });
+};
+
 export const useVinylStore = create<VinylStore>((set, get) => {
   // Try to load from localStorage first, fallback to vinyls.json
   const storedVinyls = loadVinylsFromStorage();
-  const initialVinyls: Vinyl[] = storedVinyls || (vinylsData as Vinyl[]);
+  const loadedVinyls = storedVinyls || (vinylsData as Vinyl[]);
+  // Calculate gain/loss for all vinyls on initial load
+  const initialVinyls: Vinyl[] = calculateGainLoss(loadedVinyls);
   const initialFilteredVinyls = applyFilters(initialVinyls, defaultFilters, 'purchaseDate', 'desc');
 
   return {
