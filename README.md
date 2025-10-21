@@ -1,3 +1,11 @@
+```markdown
+[![Live Site](https://img.shields.io/badge/Live-vinyl.banast.as-00d9ff?style=for-the-badge)](https://vinyl.banast.as)
+[![Powered by Discogs](https://img.shields.io/badge/Powered%20by-Discogs%20API-ff6c00?style=for-the-badge)](https://www.discogs.com/developers/)
+[![Built with React](https://img.shields.io/badge/Built%20with-React%2018-61dafb?style=for-the-badge&logo=react)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178c6?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-38bdf8?style=for-the-badge&logo=tailwindcss)](https://tailwindcss.com/)
+```
+
 # vinyl.banast.as 🎵
 
 A sleek vinyl record collection manager with Discogs API integration, real-time marketplace pricing, and manual purchase price tracking.
