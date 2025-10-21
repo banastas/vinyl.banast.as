@@ -102,13 +102,13 @@ function mapDiscogsToVinyl(release, collectionItem, prices) {
   const mediaCondition = 'Near Mint (NM)';
   const sleeveCondition = 'Near Mint (NM)';
 
-  // Get estimated value from prices if available
+  // Get estimated value from marketplace stats
   let estimatedValue;
-  if (prices) {
-    const conditionKey = 'Near Mint (NM or M-)';
-    if (prices[conditionKey]) {
-      estimatedValue = prices[conditionKey].value;
-    }
+  let numForSale = 0;
+  if (prices && prices.lowest_price) {
+    // Use lowest current asking price as estimated value
+    estimatedValue = prices.lowest_price.value;
+    numForSale = prices.num_for_sale || 0;
   }
 
   const now = new Date().toISOString();
@@ -190,16 +190,16 @@ async function importCollection() {
           // Get full release details
           const release = await makeRequest(`/releases/${releaseId}`);
 
-          // Try to get prices (may fail for some releases)
-          let prices;
+          // Try to get marketplace stats (current prices)
+          let marketStats;
           try {
-            prices = await makeRequest(`/marketplace/price_suggestions/${releaseId}`);
+            marketStats = await makeRequest(`/marketplace/stats/${releaseId}`);
           } catch (error) {
-            // Price suggestions not available for this release
+            // Marketplace stats not available for this release
           }
 
           // Map to vinyl format
-          const vinyl = mapDiscogsToVinyl(release, item, prices);
+          const vinyl = mapDiscogsToVinyl(release, item, marketStats);
           vinyls.push(vinyl);
 
           console.log(` ✓`);
