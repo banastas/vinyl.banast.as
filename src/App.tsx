@@ -126,7 +126,7 @@ function App() {
               <Disc3 className="w-8 h-8 text-tron-cyan" />
               <div>
                 <h1 className="text-2xl font-bold bg-gradient-to-r from-tron-cyan to-tron-pink bg-clip-text text-transparent drop-shadow-lg">
-                  Vinyl Collection
+                  vinyl.banast.as
                 </h1>
                 <p className="text-sm text-tron-text-dim">
                   {stats.totalRecords} {stats.totalRecords === 1 ? 'record' : 'records'}
