@@ -40,34 +40,6 @@ export const VinylCard: React.FC<VinylCardProps> = ({ vinyl, onClick, onArtistCl
             <Disc3 className="w-16 h-16 text-gray-600" />
           </div>
         )}
-
-        {/* Condition Badge Overlay */}
-        <div className="absolute top-2 right-2 flex flex-col gap-1">
-          <div className="bg-black/70 backdrop-blur-sm rounded px-2 py-1 text-xs font-medium text-white">
-            {vinyl.mediaCondition}
-          </div>
-          {vinyl.colorVariant && (
-            <div className="bg-tron-pink/90 backdrop-blur-sm rounded px-2 py-1 text-xs font-medium text-white">
-              Colored
-            </div>
-          )}
-        </div>
-
-        {/* Price Change Indicator */}
-        {hasGainLoss && (
-          <div className={`absolute top-2 left-2 ${
-            gainLoss > 0 ? 'bg-green-500/90' : gainLoss < 0 ? 'bg-red-500/90' : 'bg-gray-500/90'
-          } backdrop-blur-sm rounded px-2 py-1 flex items-center gap-1`}>
-            {gainLoss > 0 ? (
-              <TrendingUp className="w-3 h-3 text-white" />
-            ) : gainLoss < 0 ? (
-              <TrendingDown className="w-3 h-3 text-white" />
-            ) : null}
-            <span className="text-xs font-medium text-white">
-              {gainLoss > 0 ? '+' : ''}${gainLoss.toFixed(0)}
-            </span>
-          </div>
-        )}
       </div>
 
       {/* Info Section */}
@@ -89,6 +61,25 @@ export const VinylCard: React.FC<VinylCardProps> = ({ vinyl, onClick, onArtistCl
         <div className="flex items-center justify-between text-xs text-tron-text-dim mb-2">
           <span>{vinyl.releaseYear}</span>
           <span>{vinyl.format[0]}</span>
+        </div>
+
+        {/* Condition and Gain/Loss Row */}
+        <div className="flex items-center justify-between text-xs mb-2">
+          <span className="text-tron-text-dim">{vinyl.mediaCondition}</span>
+          {hasGainLoss && (
+            <div className={`flex items-center gap-1 ${
+              gainLoss > 0 ? 'text-green-400' : gainLoss < 0 ? 'text-red-400' : 'text-gray-400'
+            }`}>
+              {gainLoss > 0 ? (
+                <TrendingUp className="w-3 h-3" />
+              ) : gainLoss < 0 ? (
+                <TrendingDown className="w-3 h-3" />
+              ) : null}
+              <span className="font-medium">
+                {gainLoss > 0 ? '+' : ''}${gainLoss.toFixed(0)}
+              </span>
+            </div>
+          )}
         </div>
 
         {/* Price Info */}
