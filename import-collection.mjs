@@ -82,7 +82,7 @@ function generateId() {
 }
 
 // Map Discogs release to Vinyl format
-function mapDiscogsToVinyl(release, collectionItem, prices) {
+function mapDiscogsToVinyl(release, collectionItem, prices, existingRecord = null) {
   const primaryArtist = release.artists?.[0]?.name || 'Unknown Artist';
   const artists = (release.artists || []).map(a => ({
     id: a.id,
@@ -113,8 +113,39 @@ function mapDiscogsToVinyl(release, collectionItem, prices) {
 
   const now = new Date().toISOString();
 
-  return {
+  // Preserve manual edits from existing record
+  const preservedFields = existingRecord ? {
+    id: existingRecord.id,
+    purchasePrice: existingRecord.purchasePrice, // Preserve manual purchase price
+    purchaseDate: existingRecord.purchaseDate,
+    storageLocation: existingRecord.storageLocation,
+    tags: existingRecord.tags,
+    notes: existingRecord.notes || release.notes || '', // Use existing notes if set
+    sleeveCondition: existingRecord.sleeveCondition,
+    mediaCondition: existingRecord.mediaCondition,
+    createdAt: existingRecord.createdAt,
+  } : {
     id: generateId(),
+    purchasePrice: undefined, // No purchase price by default
+    purchaseDate: collectionItem?.date_added || now,
+    storageLocation: '',
+    tags: [],
+    notes: release.notes || '',
+    sleeveCondition: sleeveCondition,
+    mediaCondition: mediaCondition,
+    createdAt: now,
+  };
+
+  // Calculate gain/loss if purchase price exists
+  const gainLoss = preservedFields.purchasePrice && estimatedValue
+    ? estimatedValue - preservedFields.purchasePrice
+    : undefined;
+  const gainLossPercentage = preservedFields.purchasePrice && gainLoss !== undefined
+    ? (gainLoss / preservedFields.purchasePrice) * 100
+    : undefined;
+
+  return {
+    ...preservedFields,
     discogsReleaseId: release.id,
     discogsMasterId: release.master_id,
     artist: primaryArtist,
@@ -128,25 +159,41 @@ function mapDiscogsToVinyl(release, collectionItem, prices) {
     genres: release.genres || [],
     styles: release.styles || [],
     coverImageUrl: coverImage,
-    sleeveCondition: sleeveCondition,
-    mediaCondition: mediaCondition,
-    purchaseDate: collectionItem?.date_added || now,
     purchaseCurrency: 'USD',
-    storageLocation: '',
-    tags: [],
-    notes: release.notes || '',
     suggestedPrice: estimatedValue,
     estimatedValue: estimatedValue,
+    gainLoss: gainLoss,
+    gainLossPercentage: gainLossPercentage,
     lastPriceUpdate: prices ? now : undefined,
     lastSyncedWithDiscogs: now,
-    createdAt: now,
     updatedAt: now
   };
+}
+
+// Load existing collection to preserve manual data
+function loadExistingCollection() {
+  try {
+    const existing = JSON.parse(fs.readFileSync(OUTPUT_FILE, 'utf-8'));
+    // Create a map of discogsReleaseId -> existing record
+    const map = new Map();
+    existing.forEach(record => {
+      if (record.discogsReleaseId) {
+        map.set(record.discogsReleaseId, record);
+      }
+    });
+    return map;
+  } catch (error) {
+    return new Map();
+  }
 }
 
 // Main import function
 async function importCollection() {
   console.log('🎵 Starting Discogs collection import...\n');
+
+  // Load existing collection to preserve manual edits
+  const existingRecords = loadExistingCollection();
+  console.log(`📂 Found ${existingRecords.size} existing records to preserve manual data\n`);
   console.log(`Username: ${DISCOGS_USERNAME}`);
   console.log(`Token: ${DISCOGS_TOKEN.substring(0, 4)}...${DISCOGS_TOKEN.substring(DISCOGS_TOKEN.length - 4)}\n`);
 
@@ -198,8 +245,11 @@ async function importCollection() {
             // Marketplace stats not available for this release
           }
 
+          // Get existing record to preserve manual edits
+          const existingRecord = existingRecords.get(releaseId);
+
           // Map to vinyl format
-          const vinyl = mapDiscogsToVinyl(release, item, marketStats);
+          const vinyl = mapDiscogsToVinyl(release, item, marketStats, existingRecord);
           vinyls.push(vinyl);
 
           console.log(` ✓`);
