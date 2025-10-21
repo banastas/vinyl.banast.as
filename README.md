@@ -414,7 +414,7 @@ MIT License - feel free to fork for your own collection!
 - **Built by**: [banastas](https://github.com/banastas)
 - **Powered by**: [Discogs API](https://www.discogs.com/developers/)
 - **Icons**: [Lucide](https://lucide.dev/)
-- **Inspiration**: [comic.banast.as](https://comic.banast.as) architecture
+- **Inspiration**: [comics.banast.as](https://comics.banast.as) architecture
 
 ## 📞 Support
 
