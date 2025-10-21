@@ -413,7 +413,6 @@ MIT License - feel free to fork for your own collection!
 
 - **Live Site**: https://vinyl.banast.as
 - **Documentation**: See [PURCHASE_PRICE_GUIDE.md](PURCHASE_PRICE_GUIDE.md)
-- **Future Projects**: See [BLURAY_PRD.md](BLURAY_PRD.md) for 4K Blu-Ray collection manager
 
 ---
 
