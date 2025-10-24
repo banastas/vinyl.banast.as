@@ -265,8 +265,10 @@ const defaultFilters: FilterOptions = {
 // Helper to calculate gain/loss for vinyls
 const calculateGainLoss = (vinyls: Vinyl[]): Vinyl[] => {
   return vinyls.map(vinyl => {
-    if (vinyl.purchasePrice !== undefined && vinyl.estimatedValue !== undefined) {
-      const gainLoss = vinyl.estimatedValue - vinyl.purchasePrice;
+    if (vinyl.purchasePrice !== undefined) {
+      // Use estimatedValue if available, otherwise assume break-even (purchasePrice)
+      const currentValue = vinyl.estimatedValue !== undefined ? vinyl.estimatedValue : vinyl.purchasePrice;
+      const gainLoss = currentValue - vinyl.purchasePrice;
       const gainLossPercentage = vinyl.purchasePrice > 0
         ? (gainLoss / vinyl.purchasePrice) * 100
         : 0;
@@ -512,16 +514,24 @@ export const useVinylStore = create<VinylStore>((set, get) => {
     // Computed Values
     get stats() {
       const state = get();
-      const vinylsWithEstimatedValue = state.vinyls.filter(v => v.estimatedValue !== undefined);
-      const totalPurchaseValue = state.vinyls.reduce((sum, v) => sum + (v.purchasePrice || 0), 0);
-      const totalCurrentValue = vinylsWithEstimatedValue.reduce((sum, v) => sum + (v.estimatedValue || 0), 0);
-      const totalGainLoss = vinylsWithEstimatedValue.reduce((sum, v) => sum + (v.gainLoss || 0), 0);
-      const totalInvestment = vinylsWithEstimatedValue.reduce((sum, v) => sum + (v.purchasePrice || 0), 0);
-      const totalGainLossPercentage = totalInvestment > 0 ? (totalGainLoss / totalInvestment) * 100 : 0;
+      const vinylsWithPurchasePrice = state.vinyls.filter(v => v.purchasePrice !== undefined);
+
+      // Calculate total invested (all vinyls with purchase price)
+      const totalPurchaseValue = vinylsWithPurchasePrice.reduce((sum, v) => sum + (v.purchasePrice || 0), 0);
+
+      // Calculate total current value (use estimatedValue if available, otherwise purchasePrice)
+      const totalCurrentValue = vinylsWithPurchasePrice.reduce((sum, v) => {
+        const currentValue = v.estimatedValue !== undefined ? v.estimatedValue : v.purchasePrice!;
+        return sum + currentValue;
+      }, 0);
+
+      // Calculate total gain/loss
+      const totalGainLoss = vinylsWithPurchasePrice.reduce((sum, v) => sum + (v.gainLoss || 0), 0);
+      const totalGainLossPercentage = totalPurchaseValue > 0 ? (totalGainLoss / totalPurchaseValue) * 100 : 0;
 
       // Find biggest gainer and loser (only include records with purchase price and actual gains/losses)
-      const vinylsWithGainLoss = vinylsWithEstimatedValue.filter(v =>
-        v.purchasePrice !== undefined && v.gainLoss !== undefined
+      const vinylsWithGainLoss = vinylsWithPurchasePrice.filter(v =>
+        v.gainLoss !== undefined
       );
 
       const biggestGainer = vinylsWithGainLoss
@@ -583,7 +593,7 @@ export const useVinylStore = create<VinylStore>((set, get) => {
         averageMediaCondition: 'Near Mint (NM)', // TODO: Calculate properly
         totalGainLoss,
         totalGainLossPercentage,
-        recordsWithCurrentValue: vinylsWithEstimatedValue.length,
+        recordsWithCurrentValue: state.vinyls.filter(v => v.estimatedValue !== undefined).length,
         coloredVinylCount: state.vinyls.filter(v => v.colorVariant && v.colorVariant.trim() !== '').length,
         firstPressingCount: state.vinyls.filter(v =>
           v.tags.includes('first pressing') || v.notes.toLowerCase().includes('first pressing')
