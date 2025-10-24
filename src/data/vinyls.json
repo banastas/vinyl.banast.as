@@ -38,14 +38,15 @@
     "storageLocation": "",
     "tags": [],
     "notes": "Standard black vinyl version.\n\nTracks are listed sequentially on the release.",
-    "purchasePrice": 15.99,
-    "suggestedPrice": 19,
+    "suggestedPrice": 17,
     "purchasePrice": 25.98,
-    "estimatedValue": 19,
-    "lastPriceUpdate": "2025-10-21T03:56:38.166Z",
+    "estimatedValue": 17,
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:56:38.166Z",
     "createdAt": "2025-10-21T03:56:38.166Z",
-    "updatedAt": "2025-10-21T03:56:38.166Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": -8.98,
+    "gainLossPercentage": -34.565050038491144
   },
   {
     "id": "134c9668-28d0-4a91-96fc-e4296bdf0fba",
@@ -97,10 +98,12 @@
     "suggestedPrice": 28.89,
     "purchasePrice": 25.94,
     "estimatedValue": 28.89,
-    "lastPriceUpdate": "2025-10-21T03:56:40.851Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:56:40.851Z",
     "createdAt": "2025-10-21T03:56:40.851Z",
-    "updatedAt": "2025-10-21T03:56:40.851Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": 2.9499999999999993,
+    "gainLossPercentage": 11.372397841171932
   },
   {
     "id": "b0cb8424-78b5-4a16-b93e-5e155c976a6c",
@@ -146,10 +149,12 @@
     "suggestedPrice": 24.99,
     "purchasePrice": 25.97,
     "estimatedValue": 24.99,
-    "lastPriceUpdate": "2025-10-21T03:56:43.537Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:56:43.537Z",
     "createdAt": "2025-10-21T03:56:43.537Z",
-    "updatedAt": "2025-10-21T03:56:43.537Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": -0.9800000000000004,
+    "gainLossPercentage": -3.773584905660379
   },
   {
     "id": "66123e88-1e68-482d-ab2d-8aacd2d09037",
@@ -192,10 +197,12 @@
     "suggestedPrice": 79.99,
     "purchasePrice": 54.19,
     "estimatedValue": 79.99,
-    "lastPriceUpdate": "2025-10-21T03:56:46.240Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:56:46.240Z",
     "createdAt": "2025-10-21T03:56:46.240Z",
-    "updatedAt": "2025-10-21T03:56:46.240Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": 25.799999999999997,
+    "gainLossPercentage": 47.61026019560804
   },
   {
     "id": "38d37faa-13c3-4ca5-aa87-2d9d5b9cd2aa",
@@ -240,10 +247,12 @@
     "suggestedPrice": 29.74,
     "purchasePrice": 37.51,
     "estimatedValue": 29.74,
-    "lastPriceUpdate": "2025-10-21T03:56:49.024Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:56:49.024Z",
     "createdAt": "2025-10-21T03:56:49.024Z",
-    "updatedAt": "2025-10-21T03:56:49.024Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": -7.77,
+    "gainLossPercentage": -20.71447613969608
   },
   {
     "id": "bd07103d-e210-4839-9d29-528bd1554a8a",
@@ -283,12 +292,14 @@
     "tags": [],
     "notes": "Crystal clear vinyl.\nComes with two hype stickers.\nMade in France by Vinyl de Paris.\n℗ & © 2024 Genesis under exclusive license to Ed Banger Records / Because Music\nCover art features a frame from the Neverender music video directed by Masanobu Hiraoka, Kota Iguchi and Armand Béraud, producted by CEKAI.",
     "suggestedPrice": 15.99,
-    "purchasePrice": 16.10,
+    "purchasePrice": 16.1,
     "estimatedValue": 15.99,
-    "lastPriceUpdate": "2025-10-21T03:56:51.660Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:56:51.660Z",
     "createdAt": "2025-10-21T03:56:51.660Z",
-    "updatedAt": "2025-10-21T03:56:51.660Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": -0.11000000000000121,
+    "gainLossPercentage": -0.6832298136646037
   },
   {
     "id": "1720cb75-49a4-436d-954b-865047be9387",
@@ -329,10 +340,12 @@
     "suggestedPrice": 34.88,
     "purchasePrice": 45,
     "estimatedValue": 34.88,
-    "lastPriceUpdate": "2025-10-21T03:56:54.423Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:56:54.423Z",
     "createdAt": "2025-10-21T03:56:54.423Z",
-    "updatedAt": "2025-10-21T03:56:54.423Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": -10.119999999999997,
+    "gainLossPercentage": -22.488888888888884
   },
   {
     "id": "e7f96e7f-8aae-4383-85e6-caa2c3f8d2fe",
@@ -373,10 +386,12 @@
     "suggestedPrice": 50,
     "purchasePrice": 45,
     "estimatedValue": 50,
-    "lastPriceUpdate": "2025-10-21T03:56:57.052Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:56:57.052Z",
     "createdAt": "2025-10-21T03:56:57.052Z",
-    "updatedAt": "2025-10-21T03:56:57.052Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": 5,
+    "gainLossPercentage": 11.11111111111111
   },
   {
     "id": "953e5a75-3851-4a76-93e1-a330141d5db7",
@@ -419,10 +434,12 @@
     "suggestedPrice": 19.77,
     "purchasePrice": 24.98,
     "estimatedValue": 19.77,
-    "lastPriceUpdate": "2025-10-21T03:56:59.704Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:56:59.704Z",
     "createdAt": "2025-10-21T03:56:59.704Z",
-    "updatedAt": "2025-10-21T03:56:59.704Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": -5.210000000000001,
+    "gainLossPercentage": -20.856685348278624
   },
   {
     "id": "e80af6a3-8a9e-4aed-83d3-b6e0547787fc",
@@ -463,10 +480,12 @@
     "suggestedPrice": 25.58,
     "purchasePrice": 13.16,
     "estimatedValue": 25.58,
-    "lastPriceUpdate": "2025-10-21T03:57:03.066Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:57:03.066Z",
     "createdAt": "2025-10-21T03:57:03.066Z",
-    "updatedAt": "2025-10-21T03:57:03.066Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": 12.419999999999998,
+    "gainLossPercentage": 94.37689969604862
   },
   {
     "id": "cf51c8bd-7f91-48a8-9004-a0471054f7f9",
@@ -507,12 +526,14 @@
     "tags": [],
     "notes": "25 years limited Anniversary of Bridge Nine and 20 years of Death Before Dishonor silver edition\n1000 copies on silver vinyl made.",
     "suggestedPrice": 26.39,
-    "purchasePrice": 35.10,
+    "purchasePrice": 35.1,
     "estimatedValue": 26.39,
-    "lastPriceUpdate": "2025-10-21T03:57:05.690Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:57:05.690Z",
     "createdAt": "2025-10-21T03:57:05.690Z",
-    "updatedAt": "2025-10-21T03:57:05.690Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": -8.71,
+    "gainLossPercentage": -24.814814814814817
   },
   {
     "id": "cb90ee7b-521e-4d86-8425-6a13b2e3d5e2",
@@ -556,10 +577,12 @@
     "suggestedPrice": 19.48,
     "purchasePrice": 28.97,
     "estimatedValue": 19.48,
-    "lastPriceUpdate": "2025-10-21T03:57:08.373Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:57:08.373Z",
     "createdAt": "2025-10-21T03:57:08.373Z",
-    "updatedAt": "2025-10-21T03:57:08.373Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": -9.489999999999998,
+    "gainLossPercentage": -32.75802554366586
   },
   {
     "id": "b2a82206-bb5b-42d1-a84c-02460b483ee6",
@@ -602,10 +625,12 @@
     "suggestedPrice": 17.02,
     "purchasePrice": 21.97,
     "estimatedValue": 17.02,
-    "lastPriceUpdate": "2025-10-21T03:57:11.051Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:57:11.051Z",
     "createdAt": "2025-10-21T03:57:11.051Z",
-    "updatedAt": "2025-10-21T03:57:11.051Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": -4.949999999999999,
+    "gainLossPercentage": -22.530723714155666
   },
   {
     "id": "b598eb37-85c9-4c9a-8f0c-57801c1fb1fc",
@@ -649,10 +674,12 @@
     "suggestedPrice": 10.71,
     "purchasePrice": 27.61,
     "estimatedValue": 10.71,
-    "lastPriceUpdate": "2025-10-21T03:57:13.775Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:57:13.775Z",
     "createdAt": "2025-10-21T03:57:13.775Z",
-    "updatedAt": "2025-10-21T03:57:13.775Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": -16.9,
+    "gainLossPercentage": -61.209706628033324
   },
   {
     "id": "dceff1bb-9a86-4330-a3ed-317e605d520a",
@@ -696,13 +723,15 @@
     "storageLocation": "",
     "tags": [],
     "notes": "Hype sticker:\nThe 10th anniversary expanded edition includes 9 unreleased outtakes. \n3 x 180 gram vinyl. \nPoster.\n\nA1: Published by Concord Music Publishing LLC for the world excluding France, Daft Music/Because Editions for France, XLC Music, Inc. (BMI), Miss Mittie Music (BMI)\n\nA2: Published by Concord Music Publishing LLC for the world excluding France, Daft Music/Because Editions for France\n\nA3: Published by Concord Music Publishing LLC for the world excluding France, Daft Music/Because Editions for France, Giorgio Moroder Publishing (ASCAP)\n\nB1: Published by Concord Music Publishing LLC for the world excluding France, Daft Music/Because Editions for France, EMI Music Publishing\n\nB2: Published by Concord Music Publishing LLC for the world excluding France, Daft Music/Because Editions for France, BMG Onyx (GMR) / All Rights Administered by BMG Rights Management (US) LLC.\n\nB3: Published by Concord Music Publishing LLC for the world excluding France, Daft Music/Because Editions for France, Daft Music/Because Editions for France, XLC Music, Inc. (BMI), EMI April Music, Inc. obo Itself and More Water From Nazareth (ASCAP)\n\nC1: Published by Concord Music Publishing LLC for the world excluding France, Daft Music/Because Editions for France, Daft Music/Because Editions for France, Sunset Squid Music, is Kazz Song, Inc.\n\nC2: Published by Concord Music Publishing LLC for the world excluding France, Daft Music/Because Editions for France, Daft Music/Because Editions for France, XLC Music, Inc. (BMI), EMI April Music, Inc. obo Itself and More Water From Nazareth (ASCAP)\n\nC3: Published by Concord Music Publishing LLC for the world excluding France, Daft Music/Because Editions for France, Daft Music/Because Editions for France, Sunset Squid Music, is Kazz Song, Inc.\n\nD1: Published by Concord Music Publishing LLC for the world excluding France, Daft Music/Because Editions for France\n\nD2: Published by Imagem Music for the world excluding France, Daft Music/Become France for France, Todd Imperatrice (ASCAP)\n\nD3: Panda Bear appears courtesy of Domino Records. Published by Concord Music Publishing LLC for the world excluding France, Daft Music/Because Editions for France, Panda Lennox (ASCAP) published by Chrysalis  \n\nD4: Published by Concord Music Publishing LLC for the world excluding France, Daft Music/Because Editions for France, Stephane Queme Music, Perfect Pitch Music Publishing (ASCAP)\nContains a sample from [a911598] recording, \"[m1233664]\" Produced Under License From Liberation Music Pty Ltd and used by courtesy of Atlantic Recording Corp. under license from Rhino Entertainment Company, a Warner Music Group company.\nContains audio from the Apollo 17 mission used by courtesy of NASA and Capt. Eugene Cernan.\n\nE1: Published by Concord Music Publishing LLC for the world excluding France, Daft Music/Because Editions for France\n\nE2: Published by Concord Music Publishing LLC for the world excluding France, Daft Music/Because Editions for France\n\nE3: Published by Concord Music Publishing LLC for the world excluding France, Daft Music/Because Editions for France, XLC Music, Inc. (BMI), Miss Mittie Music (BMI)\n\nE4. Julian Casablancas + The Voidz appear courtesy of Cult Records. Published by Concord Music Publishing LLC for the world excluding France, Daft Music/Because Editions for France, Concord Global Music / Minorbutmajor (admin. by Concord Global Music) (GMR) c/o Concord Music Publishing\n\nE5: Published by Concord Music Publishing LLC for the world excluding France, Daft Music/Because Editions for France, Daft Music/Because Editions for France, XLC Music, Inc. (BMI), EMI April Music, Inc. obo Itself and More Water From Nazareth (ASCAP)\n\nF1: Published by Concord Music Publishing LLC for the world excluding France, Daft Music/Because Editions for France\n\nF2: Published by Concord Music Publishing LLC for the world excluding France, Daft Music/Because Editions for France, Daft Music/Because Editions for France, XLC Music, Inc. (BMI), EMI April Music, Inc. obo Itself and More Water From Nazareth (ASCAP)\n\nF3: Published by Concord Music Publishing LLC for the world excluding France, Daft Music/Because Editions for France, Todd Imperatrice (ASCAP)\n\nF4: Published by Concord Music Publishing LLC for the world excluding France, Daft Music/Because Editions for France, Daft Music/Because Editions for France, Sunset Squid Music, is Kazz Song, Inc.\n\nRecorded at:\nGang Recording Studio, Paris.\nHenson Recording Studios, Hollywood.\nConway Recording Studios, Hollywood.\nElectric Lady Studios, New York.\nCapitol Studios, Hollywood.\n\nMixed at:\nConway Studios, Los Angeles\n\nMastered By:\nBob Ludwig at Gateway Mastering Studios, Portland & Chab at Translab, Paris.\n\n10th Anniversary Edition Additional Material Mastered By:\nChab at Chab Mastering & Florian Lagatta at Gang Recording Studio, Paris.\n\n10th Anniversary Edition Vinyl Cutting By:\nMarie Pieprzownik, Translab, Paris.\n\nMedia Director:\nKathryn Frazier, Biz 3.\n\nLegal:\nPeter Button, Clintons UK.",
-    "suggestedPrice": 34.64,
+    "suggestedPrice": 30,
     "purchasePrice": 44.26,
-    "estimatedValue": 34.64,
-    "lastPriceUpdate": "2025-10-21T03:57:16.566Z",
+    "estimatedValue": 30,
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:57:16.566Z",
     "createdAt": "2025-10-21T03:57:16.566Z",
-    "updatedAt": "2025-10-21T03:57:16.566Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": -14.259999999999998,
+    "gainLossPercentage": -32.218707636692265
   },
   {
     "id": "1f375f75-d4eb-4f6d-befd-4e81fb15c129",
@@ -742,10 +771,12 @@
     "suggestedPrice": 35.71,
     "purchasePrice": 35.09,
     "estimatedValue": 35.71,
-    "lastPriceUpdate": "2025-10-21T03:57:19.196Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:57:19.196Z",
     "createdAt": "2025-10-21T03:57:19.196Z",
-    "updatedAt": "2025-10-21T03:57:19.196Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": 0.6199999999999974,
+    "gainLossPercentage": 1.7668851524650822
   },
   {
     "id": "82cd220f-2504-4793-8dd4-3acedbe73dd8",
@@ -784,10 +815,12 @@
     "suggestedPrice": 12.34,
     "purchasePrice": 15.98,
     "estimatedValue": 12.34,
-    "lastPriceUpdate": "2025-10-21T03:57:21.962Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:57:21.962Z",
     "createdAt": "2025-10-21T03:57:21.962Z",
-    "updatedAt": "2025-10-21T03:57:21.962Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": -3.6400000000000006,
+    "gainLossPercentage": -22.77847309136421
   },
   {
     "id": "a63b881e-5283-484f-8a06-340c6dcda851",
@@ -829,10 +862,12 @@
     "suggestedPrice": 24.99,
     "purchasePrice": 29.98,
     "estimatedValue": 24.99,
-    "lastPriceUpdate": "2025-10-21T03:57:24.630Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:57:24.630Z",
     "createdAt": "2025-10-21T03:57:24.630Z",
-    "updatedAt": "2025-10-21T03:57:24.630Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": -4.990000000000002,
+    "gainLossPercentage": -16.644429619746504
   },
   {
     "id": "72632e87-5633-4831-a027-30b4ca7a737c",
@@ -876,13 +911,15 @@
     "storageLocation": "",
     "tags": [],
     "notes": "Tip-on gatefold jacket with artwork tying into the group’s collaboration with Leiji Matsumoto and Toei Animation, obi strip with release info (updated to reflect changes to this particular release). \n\nThe set contains the album, its liner notes on a 4-page insert, a 12”x12” sticker sheet, a Japanese language insert, and a Daft Club membership card, with a unique number to input on the corresponding website, brought back online on December 2024.\n\nDisc labels feature the text 見本/非売品 (Sample/Not for sale).\n\nHype sticker text:\nDaft Punk \nDiscovery\nJapanese Edition First Reissue\nDouble Vinyl\nIncludes Daft Club Card + Stickers\n\nObi strip text translated:\n« Daft Punk\nDiscovery\nCompletely Limited Edition\nA futuristic project proposed to Daft Punk. The history of music will be reborn here.\nDaft Punk Discovery\nAccess to free content provided on the internet\nDaft Club membership card included for free »\n\nIncludes a Japanese translation of the initial instructions for registering as a member of the Daft Club!\nThe Japanese version includes a message from Daft Punk to their Japanese fans!\n\n« In response to enthusiastic requests, the masterpiece\nalbum \"Discovery,\" which heated up the club\nscene at the dawn of the 21st century, is finally being\nreleased on vinyl for the first time in Japan!\nIn addition to the luxurious two-disc set, the album also includes\nthe first and second illustration jackets (from the music video by\nReiji Matsumoto) that are familiar from the Japanese CD Version\nA must-have specification featuring both!\n\n2 disc set\n\nRegular price 3,500 yen (base price 3,333 yen)\nUntil 02/09/26\n\n[What is Daft Club?]\nDaft Punk, Who have been making waves with their\nexplove hit \"One More Time,\" their music video\nproduction with Reiji Matsumoto, and their shocking\nandroid look, have discovered a groundbreaking\nconcept that breaks the conventional wisdom\nof the music industry!\nThis album comes with a credit card-sized\nDaft Club membership card (also\nknown as a Daft Card, valid until\nDecember 2002) that is engraved with\na unique 16-digit number.\n\nif you access Daft Club on the internet\nand register as a member using this\nnumber, you can download a program\ncalled Daft Player.\nOnce you have completed the registration\nprocess, a dream world awaits you:\nyou can download remixes and other\nenjoyable content provided by Daft Punk\nthemselves, free of charge.\n\"Discovery\" is not complete with the\n14 songs on this album....\n\nYou grow it!\n\nDaft Club supported OS\nWindows 98/2000 (as of March 2002) »\n\nCommentary, lyrics and translation included.\n\nLimited to 25000 copies. \n\nMade in Germany.",
-    "suggestedPrice": 109.88,
+    "suggestedPrice": 115.12,
     "purchasePrice": 54.99,
-    "estimatedValue": 109.88,
-    "lastPriceUpdate": "2025-10-21T03:57:27.326Z",
+    "estimatedValue": 115.12,
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:57:27.326Z",
     "createdAt": "2025-10-21T03:57:27.326Z",
-    "updatedAt": "2025-10-21T03:57:27.326Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": 60.13,
+    "gainLossPercentage": 109.3471540280051
   },
   {
     "id": "6cc9da1f-6a1a-48e6-98c5-2bda7e432511",
@@ -922,10 +959,12 @@
     "suggestedPrice": 40,
     "purchasePrice": 35,
     "estimatedValue": 40,
-    "lastPriceUpdate": "2025-10-21T03:57:29.964Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:57:29.964Z",
     "createdAt": "2025-10-21T03:57:29.964Z",
-    "updatedAt": "2025-10-21T03:57:29.964Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": 5,
+    "gainLossPercentage": 14.285714285714285
   },
   {
     "id": "4967a0ee-6a18-4ff1-ad3a-f4005466dc09",
@@ -961,13 +1000,15 @@
     "storageLocation": "",
     "tags": [],
     "notes": "30th anniversary reissue.\n\nCatalog numbers: 06025 478 207-5 (4) on the jacket spine, labels and inner sleeve.\n\nNo Universal Music Group logo (UMG) printed on the back cover right beside DefJam logo.\n\nOn back cover:\n℗ 2016 Def Jam Recordings © 2016 Def Jam Recordings, a division of UMG Recordings, Inc.\nMade in the EU.\n\nOn labels:\n℗ 2016 Def Jam Recordings\n© 2016 Def Jam Recordings,\na division of UMG Recordings, Inc.\nMade in the EU.\n\nOn inner sleeve:\n© 2016 Def Jam Recordings, a division of UMG Recordings, Inc.\n\nIn runouts variant 1 '0060 25 478 20 754' is laser(?)-etched, 'B0024720-01-A G·I RM' is etched, '16699 1A' is stamped.\nRunouts variant 2 don't show '0060 25 478 20 754' at all, it could be that this faint etching had wiped out along the stampers generation.",
-    "suggestedPrice": 19.77,
+    "suggestedPrice": 22.09,
     "purchasePrice": 28.97,
-    "estimatedValue": 19.77,
-    "lastPriceUpdate": "2025-10-21T03:57:32.639Z",
+    "estimatedValue": 22.09,
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:57:32.639Z",
     "createdAt": "2025-10-21T03:57:32.639Z",
-    "updatedAt": "2025-10-21T03:57:32.639Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": -6.879999999999999,
+    "gainLossPercentage": -23.748705557473247
   },
   {
     "id": "f838e393-bb76-4729-a44f-97e2312a127c",
@@ -1011,10 +1052,12 @@
     "suggestedPrice": 29.01,
     "purchasePrice": 29.98,
     "estimatedValue": 29.01,
-    "lastPriceUpdate": "2025-10-21T03:57:35.449Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:57:35.449Z",
     "createdAt": "2025-10-21T03:57:35.449Z",
-    "updatedAt": "2025-10-21T03:57:35.449Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": -0.9699999999999989,
+    "gainLossPercentage": -3.235490326884586
   },
   {
     "id": "459d224e-769d-4b64-be53-9e388e9f9d72",
@@ -1057,10 +1100,12 @@
     "suggestedPrice": 22.99,
     "purchasePrice": 15.98,
     "estimatedValue": 22.99,
-    "lastPriceUpdate": "2025-10-21T03:57:38.080Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:57:38.080Z",
     "createdAt": "2025-10-21T03:57:38.080Z",
-    "updatedAt": "2025-10-21T03:57:38.080Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": 7.009999999999998,
+    "gainLossPercentage": 43.86733416770962
   },
   {
     "id": "2a62185c-d9fe-419f-9ef9-4b4e4ee0156f",
@@ -1100,10 +1145,12 @@
     "suggestedPrice": 11,
     "purchasePrice": 22.87,
     "estimatedValue": 11,
-    "lastPriceUpdate": "2025-10-21T03:57:40.699Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:57:40.699Z",
     "createdAt": "2025-10-21T03:57:40.699Z",
-    "updatedAt": "2025-10-21T03:57:40.699Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": -11.870000000000001,
+    "gainLossPercentage": -51.902055094009626
   },
   {
     "id": "532f51f6-413e-4a2b-923e-668fe37465b1",
@@ -1150,10 +1197,12 @@
     "suggestedPrice": 18.89,
     "purchasePrice": 21.99,
     "estimatedValue": 18.89,
-    "lastPriceUpdate": "2025-10-21T03:57:43.327Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:57:43.327Z",
     "createdAt": "2025-10-21T03:57:43.327Z",
-    "updatedAt": "2025-10-21T03:57:43.327Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": -3.099999999999998,
+    "gainLossPercentage": -14.097316962255563
   },
   {
     "id": "ccd42725-1429-41e0-ae0c-8b9d0a1e7ad9",
@@ -1195,10 +1244,12 @@
     "suggestedPrice": 16.69,
     "purchasePrice": 27.98,
     "estimatedValue": 16.69,
-    "lastPriceUpdate": "2025-10-21T03:57:46.022Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:57:46.022Z",
     "createdAt": "2025-10-21T03:57:46.022Z",
-    "updatedAt": "2025-10-21T03:57:46.022Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": -11.29,
+    "gainLossPercentage": -40.35025017869906
   },
   {
     "id": "9decf750-24c8-42f6-afe1-ac30a57d2372",
@@ -1236,13 +1287,15 @@
     "storageLocation": "",
     "tags": [],
     "notes": "Made in Czech Republic - Sticker on Backside",
-    "suggestedPrice": 103.49,
-    "purchasePrice": 37.80,
-    "estimatedValue": 103.49,
-    "lastPriceUpdate": "2025-10-21T03:57:48.617Z",
+    "suggestedPrice": 98.84,
+    "purchasePrice": 37.8,
+    "estimatedValue": 98.84,
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:57:48.617Z",
     "createdAt": "2025-10-21T03:57:48.617Z",
-    "updatedAt": "2025-10-21T03:57:48.617Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": 61.040000000000006,
+    "gainLossPercentage": 161.48148148148152
   },
   {
     "id": "6c5cb83b-2031-4f07-ae99-a65673b08b7f",
@@ -1288,10 +1341,12 @@
     "suggestedPrice": 14,
     "purchasePrice": 22.99,
     "estimatedValue": 14,
-    "lastPriceUpdate": "2025-10-21T03:57:51.489Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:57:51.489Z",
     "createdAt": "2025-10-21T03:57:51.489Z",
-    "updatedAt": "2025-10-21T03:57:51.489Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": -8.989999999999998,
+    "gainLossPercentage": -39.10395824271422
   },
   {
     "id": "21864ead-279a-473d-88e1-06c20a87ebe6",
@@ -1332,13 +1387,15 @@
     "storageLocation": "",
     "tags": [],
     "notes": "℗ 1992 Epic Records, a division of Sony music Entertainment, © 1992, 2015 Epic Records, a division of Sony Music Entertainment.\nMade in the EU.\n\nSimilar to [r=7345093] but no sticker on front or download code; different matrix/runout\n\nIncludes a printed inner sleeve with lyrics and credits. ",
-    "suggestedPrice": 18.05,
+    "suggestedPrice": 18.07,
     "purchasePrice": 19.77,
-    "estimatedValue": 18.05,
-    "lastPriceUpdate": "2025-10-21T03:57:54.134Z",
+    "estimatedValue": 18.07,
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:57:54.134Z",
     "createdAt": "2025-10-21T03:57:54.134Z",
-    "updatedAt": "2025-10-21T03:57:54.134Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": -1.6999999999999993,
+    "gainLossPercentage": -8.598887202832572
   },
   {
     "id": "4bba1042-1558-4c8c-8f95-9be57e1972fc",
@@ -1381,10 +1438,12 @@
     "suggestedPrice": 18,
     "purchasePrice": 23.74,
     "estimatedValue": 18,
-    "lastPriceUpdate": "2025-10-21T03:57:56.993Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:57:56.993Z",
     "createdAt": "2025-10-21T03:57:56.993Z",
-    "updatedAt": "2025-10-21T03:57:56.993Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": -5.739999999999998,
+    "gainLossPercentage": -24.178601516427964
   },
   {
     "id": "97babce5-5fc5-48b9-87ea-61494c1b771e",
@@ -1425,10 +1484,12 @@
     "suggestedPrice": 19.97,
     "purchasePrice": 23.98,
     "estimatedValue": 19.97,
-    "lastPriceUpdate": "2025-10-21T03:57:59.675Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:57:59.675Z",
     "createdAt": "2025-10-21T03:57:59.675Z",
-    "updatedAt": "2025-10-21T03:57:59.675Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": -4.010000000000002,
+    "gainLossPercentage": -16.72226855713095
   },
   {
     "id": "b403ad74-7c6f-40ba-b3a3-c6efc1313928",
@@ -1517,10 +1578,12 @@
     "suggestedPrice": 27,
     "purchasePrice": 38.28,
     "estimatedValue": 27,
-    "lastPriceUpdate": "2025-10-21T03:58:05.041Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:58:05.041Z",
     "createdAt": "2025-10-21T03:58:05.041Z",
-    "updatedAt": "2025-10-21T03:58:05.041Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": -11.280000000000001,
+    "gainLossPercentage": -29.467084639498438
   },
   {
     "id": "d7f6b779-7572-4098-aaaa-1bb775303826",
@@ -1561,10 +1624,12 @@
     "suggestedPrice": 140,
     "purchasePrice": 29.95,
     "estimatedValue": 140,
-    "lastPriceUpdate": "2025-10-21T03:58:07.773Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:58:07.773Z",
     "createdAt": "2025-10-21T03:58:07.773Z",
-    "updatedAt": "2025-10-21T03:58:07.773Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": 110.05,
+    "gainLossPercentage": 367.4457429048414
   },
   {
     "id": "860a5914-02ab-401f-be40-5a2326812959",
@@ -1606,10 +1671,12 @@
     "suggestedPrice": 34.99,
     "purchasePrice": 21.98,
     "estimatedValue": 34.99,
-    "lastPriceUpdate": "2025-10-21T03:58:10.406Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:58:10.406Z",
     "createdAt": "2025-10-21T03:58:10.406Z",
-    "updatedAt": "2025-10-21T03:58:10.406Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": 13.010000000000002,
+    "gainLossPercentage": 59.19017288444041
   },
   {
     "id": "885ba4a4-d711-4d5e-817d-bf5a54a02ed3",
@@ -1652,13 +1719,15 @@
     "storageLocation": "",
     "tags": [],
     "notes": "© 2015 Geffen Records. All Rights Reserved B0023742-01 EVO01. \nSome copies may have: Made in Canada 190513182 or 060611372 printed on shrink.\nFirst inner-sleeve is printed with credits/picture, second is black.",
-    "suggestedPrice": 32.44,
+    "suggestedPrice": 32.71,
     "purchasePrice": 32.99,
-    "estimatedValue": 32.44,
-    "lastPriceUpdate": "2025-10-21T03:58:13.128Z",
+    "estimatedValue": 32.71,
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:58:13.128Z",
     "createdAt": "2025-10-21T03:58:13.128Z",
-    "updatedAt": "2025-10-21T03:58:13.128Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": -0.28000000000000114,
+    "gainLossPercentage": -0.8487420430433499
   },
   {
     "id": "fa2339b3-6b7f-4fd9-b82d-119df396779c",
@@ -1702,10 +1771,12 @@
     "suggestedPrice": 19.99,
     "purchasePrice": 29.99,
     "estimatedValue": 19.99,
-    "lastPriceUpdate": "2025-10-21T03:58:15.747Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:58:15.747Z",
     "createdAt": "2025-10-21T03:58:15.747Z",
-    "updatedAt": "2025-10-21T03:58:15.747Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": -10,
+    "gainLossPercentage": -33.344448149383126
   },
   {
     "id": "30293f18-67ba-4c60-8fec-4f08b64a0a14",
@@ -1749,10 +1820,12 @@
     "suggestedPrice": 25,
     "purchasePrice": 37.99,
     "estimatedValue": 25,
-    "lastPriceUpdate": "2025-10-21T03:58:18.381Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:58:18.381Z",
     "createdAt": "2025-10-21T03:58:18.381Z",
-    "updatedAt": "2025-10-21T03:58:18.381Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": -12.990000000000002,
+    "gainLossPercentage": -34.19320873914188
   },
   {
     "id": "9a7b1366-a799-4ef5-9c02-a5ed27f41721",
@@ -1791,13 +1864,15 @@
     "storageLocation": "",
     "tags": [],
     "notes": "℗ & © 2024 Genesis under exclusive license to Ed Banger Records / Because Music.\nMade in France by MPO.\n\nGlossy gatefold jacket, with two glossy heavy gauge protective printed inner sleeves.\n\nTracks are numbered sequentially on hype sticker.\nBarcode on sticker only.\n\nRunouts: [MPO Logo]® 24 ##### are stamped, when all other numbers and characters are etched.",
-    "suggestedPrice": 22.67,
+    "suggestedPrice": 21.33,
     "purchasePrice": 34.99,
-    "estimatedValue": 22.67,
-    "lastPriceUpdate": "2025-10-21T03:58:21.022Z",
+    "estimatedValue": 21.33,
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:58:21.022Z",
     "createdAt": "2025-10-21T03:58:21.022Z",
-    "updatedAt": "2025-10-21T03:58:21.022Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": -13.660000000000004,
+    "gainLossPercentage": -39.03972563589598
   },
   {
     "id": "0700b263-c127-4c77-9d33-73d6896fd92f",
@@ -1841,10 +1916,12 @@
     "suggestedPrice": 31.4,
     "purchasePrice": 18.99,
     "estimatedValue": 31.4,
-    "lastPriceUpdate": "2025-10-21T03:58:23.648Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:58:23.648Z",
     "createdAt": "2025-10-21T03:58:23.648Z",
-    "updatedAt": "2025-10-21T03:58:23.648Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": 12.41,
+    "gainLossPercentage": 65.35018430753028
   },
   {
     "id": "cee3610b-ec38-46cb-9cc2-9e8f48eb68ba",
@@ -1887,10 +1964,12 @@
     "suggestedPrice": 25,
     "purchasePrice": 25.49,
     "estimatedValue": 25,
-    "lastPriceUpdate": "2025-10-21T03:58:26.276Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:58:26.276Z",
     "createdAt": "2025-10-21T03:58:26.276Z",
-    "updatedAt": "2025-10-21T03:58:26.276Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": -0.48999999999999844,
+    "gainLossPercentage": -1.9223224794036815
   },
   {
     "id": "00691466-02ad-4a7f-83f9-d2742474ffeb",
@@ -1932,10 +2011,12 @@
     "suggestedPrice": 20.63,
     "purchasePrice": 19.99,
     "estimatedValue": 20.63,
-    "lastPriceUpdate": "2025-10-21T03:58:28.915Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:58:28.915Z",
     "createdAt": "2025-10-21T03:58:28.915Z",
-    "updatedAt": "2025-10-21T03:58:28.915Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": 0.6400000000000006,
+    "gainLossPercentage": 3.2016008004002035
   },
   {
     "id": "03f6062e-8f7c-411d-ba65-a396ac9da4dc",
@@ -1979,10 +2060,12 @@
     "suggestedPrice": 22.65,
     "purchasePrice": 17.99,
     "estimatedValue": 22.65,
-    "lastPriceUpdate": "2025-10-21T03:58:31.757Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:58:31.757Z",
     "createdAt": "2025-10-21T03:58:31.757Z",
-    "updatedAt": "2025-10-21T03:58:31.757Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": 4.66,
+    "gainLossPercentage": 25.903279599777658
   },
   {
     "id": "578393c8-b8b3-4d96-bc71-588937eb7d0f",
@@ -2073,10 +2156,12 @@
     "suggestedPrice": 60,
     "purchasePrice": 30,
     "estimatedValue": 60,
-    "lastPriceUpdate": "2025-10-21T03:58:37.205Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:58:37.205Z",
     "createdAt": "2025-10-21T03:58:37.205Z",
-    "updatedAt": "2025-10-21T03:58:37.205Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": 30,
+    "gainLossPercentage": 100
   },
   {
     "id": "213b2d8e-9b7c-4be8-ad7e-c91cfd9670c1",
@@ -2120,10 +2205,12 @@
     "suggestedPrice": 24.99,
     "purchasePrice": 31.72,
     "estimatedValue": 24.99,
-    "lastPriceUpdate": "2025-10-21T03:58:39.890Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:58:39.890Z",
     "createdAt": "2025-10-21T03:58:39.890Z",
-    "updatedAt": "2025-10-21T03:58:39.890Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": -6.73,
+    "gainLossPercentage": -21.21689785624212
   },
   {
     "id": "c0617303-c2b7-4fbe-b684-cb89b6bcb76a",
@@ -2205,10 +2292,12 @@
     "suggestedPrice": 23,
     "purchasePrice": 27.97,
     "estimatedValue": 23,
-    "lastPriceUpdate": "2025-10-21T03:58:45.200Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:58:45.200Z",
     "createdAt": "2025-10-21T03:58:45.200Z",
-    "updatedAt": "2025-10-21T03:58:45.200Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": -4.969999999999999,
+    "gainLossPercentage": -17.769038255273504
   },
   {
     "id": "0e966183-548e-4dda-ae1e-d2c781a6ee41",
@@ -2252,10 +2341,12 @@
     "suggestedPrice": 35.06,
     "purchasePrice": 49.98,
     "estimatedValue": 35.06,
-    "lastPriceUpdate": "2025-10-21T03:58:47.861Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:58:47.861Z",
     "createdAt": "2025-10-21T03:58:47.861Z",
-    "updatedAt": "2025-10-21T03:58:47.861Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": -14.919999999999995,
+    "gainLossPercentage": -29.851940776310514
   },
   {
     "id": "aa164958-1625-43a7-b6c6-7b95ce44995a",
@@ -2305,10 +2396,12 @@
     "suggestedPrice": 28,
     "purchasePrice": 39.62,
     "estimatedValue": 28,
-    "lastPriceUpdate": "2025-10-21T03:58:50.671Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:58:50.671Z",
     "createdAt": "2025-10-21T03:58:50.671Z",
-    "updatedAt": "2025-10-21T03:58:50.671Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": -11.619999999999997,
+    "gainLossPercentage": -29.328621908127207
   },
   {
     "id": "9490fddc-6206-4b35-8bf0-5df08aa16164",
@@ -2349,13 +2442,15 @@
     "storageLocation": "",
     "tags": [],
     "notes": "Half Speed Master \nLimited Edition\nBrown & Orange Double Vinyl\nGatefold + brand new liner notes\n\nAssai Records retailed 100 copies of this release with a hand numbered and signed Japanese style Obi under their Assai Obi Editions. \n\n℗ & ©2025 London Records Ltd. Manufactured in the EU\n\nSide D ends with a locked groove.",
-    "suggestedPrice": 42.65,
-    "purchasePrice": 34.90,
-    "estimatedValue": 42.65,
-    "lastPriceUpdate": "2025-10-21T03:58:53.452Z",
+    "suggestedPrice": 42.64,
+    "purchasePrice": 34.9,
+    "estimatedValue": 42.64,
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:58:53.452Z",
     "createdAt": "2025-10-21T03:58:53.452Z",
-    "updatedAt": "2025-10-21T03:58:53.452Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": 7.740000000000002,
+    "gainLossPercentage": 22.177650429799435
   },
   {
     "id": "f9a4fb6e-7d34-420a-8c14-b0edc17e5068",
@@ -2399,10 +2494,12 @@
     "suggestedPrice": 35.99,
     "purchasePrice": 25,
     "estimatedValue": 35.99,
-    "lastPriceUpdate": "2025-10-21T03:58:56.188Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:58:56.188Z",
     "createdAt": "2025-10-21T03:58:56.188Z",
-    "updatedAt": "2025-10-21T03:58:56.188Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": 10.990000000000002,
+    "gainLossPercentage": 43.96000000000001
   },
   {
     "id": "b8d8cd53-eb08-469d-bd49-8a263b742709",
@@ -2442,13 +2539,15 @@
     "storageLocation": "",
     "tags": [],
     "notes": "No hype Sticker.  Cat # on the Spine Reads 093624957805. \n\nOn the backside, the cover reads\n \"Maverick Recording Company, A Warner Music Group Company, 777 S Santa Fe Ave., Los Angeles, CA 90021; 1633 Broadway, New York, NY 10019-6708.  C P 1997 Maverick Recording Company.  Made in the Netherlands.  All rights reserved.  Unauthorized duplication is a violation of applicable laws.\"   There is no LC number at the end.  \n\nVinyl is made in the Netherlands but this is distributed in the US as a domestic release.\n",
-    "suggestedPrice": 24,
+    "suggestedPrice": 20,
     "purchasePrice": 24.98,
-    "estimatedValue": 24,
-    "lastPriceUpdate": "2025-10-21T03:58:58.838Z",
+    "estimatedValue": 20,
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:58:58.838Z",
     "createdAt": "2025-10-21T03:58:58.838Z",
-    "updatedAt": "2025-10-21T03:58:58.838Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": -4.98,
+    "gainLossPercentage": -19.935948759007207
   },
   {
     "id": "d6ee4adc-241b-4d21-b41a-ae3c4a5546dd",
@@ -2490,10 +2589,12 @@
     "suggestedPrice": 17.5,
     "purchasePrice": 17.95,
     "estimatedValue": 17.5,
-    "lastPriceUpdate": "2025-10-21T03:59:01.495Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:59:01.495Z",
     "createdAt": "2025-10-21T03:59:01.495Z",
-    "updatedAt": "2025-10-21T03:59:01.495Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": -0.4499999999999993,
+    "gainLossPercentage": -2.506963788300832
   },
   {
     "id": "d974b7ec-4579-4d95-a625-4d7ee7541b42",
@@ -2533,10 +2634,12 @@
     "suggestedPrice": 8,
     "purchasePrice": 15.66,
     "estimatedValue": 8,
-    "lastPriceUpdate": "2025-10-21T03:59:04.152Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:59:04.152Z",
     "createdAt": "2025-10-21T03:59:04.152Z",
-    "updatedAt": "2025-10-21T03:59:04.152Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": -7.66,
+    "gainLossPercentage": -48.91443167305236
   },
   {
     "id": "9f729fc4-1dd7-4f9b-aadf-fd2f7a4d90bb",
@@ -2575,10 +2678,12 @@
     "suggestedPrice": 20,
     "purchasePrice": 18.65,
     "estimatedValue": 20,
-    "lastPriceUpdate": "2025-10-21T03:59:06.772Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:59:06.772Z",
     "createdAt": "2025-10-21T03:59:06.772Z",
-    "updatedAt": "2025-10-21T03:59:06.772Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": 1.3500000000000014,
+    "gainLossPercentage": 7.238605898123332
   },
   {
     "id": "6262685b-616a-49bf-a065-f28512937b05",
@@ -2617,13 +2722,15 @@
     "storageLocation": "",
     "tags": [],
     "notes": "10th anniversary re-issue on 140 gram colored vinyl. \nOnly available directly through the Mondo website.\n\nGatefold jacket with exclusive obi strip.\n\nTracks are numbered sequentially on jacket.\n\nRunouts are stamped.\n\nMade in Czech Republic sticker on rear shrink.\n\nM83 appears courtesy of M83 Recording Inc.\nSusanne Sundfør appears courtesy of Sonnet Sound Limited\n\n© 2013 Back Lot Music, a division of Universal Studios, LLC.\nAll tracks published by Universal Pictures Music (ASCAP) © 2013\nExcept \"Oblivion\" published by Universal Pictures Music (ASCAP), EMI Music Publishing France (SACEM), and Sony/ATV Music Scandinavia © 2013 Motion Picture Artwork, Artwork Title & Photos © 2013 Universal Studios.",
-    "suggestedPrice": 46,
+    "suggestedPrice": 41.4,
     "purchasePrice": 40,
-    "estimatedValue": 46,
-    "lastPriceUpdate": "2025-10-21T03:59:09.453Z",
+    "estimatedValue": 41.4,
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:59:09.453Z",
     "createdAt": "2025-10-21T03:59:09.453Z",
-    "updatedAt": "2025-10-21T03:59:09.453Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": 1.3999999999999986,
+    "gainLossPercentage": 3.499999999999996
   },
   {
     "id": "7aff8209-d924-423b-86c0-6153913cedac",
@@ -2667,10 +2774,12 @@
     "suggestedPrice": 60,
     "purchasePrice": 35,
     "estimatedValue": 60,
-    "lastPriceUpdate": "2025-10-21T03:59:12.766Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:59:12.766Z",
     "createdAt": "2025-10-21T03:59:12.766Z",
-    "updatedAt": "2025-10-21T03:59:12.766Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": 25,
+    "gainLossPercentage": 71.42857142857143
   },
   {
     "id": "919549cf-b185-4638-8b17-7f407384cd7c",
@@ -2712,10 +2821,12 @@
     "suggestedPrice": 30.23,
     "purchasePrice": 31.42,
     "estimatedValue": 30.23,
-    "lastPriceUpdate": "2025-10-21T03:59:15.464Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:59:15.464Z",
     "createdAt": "2025-10-21T03:59:15.464Z",
-    "updatedAt": "2025-10-21T03:59:15.464Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": -1.1900000000000013,
+    "gainLossPercentage": -3.787396562698922
   },
   {
     "id": "c7345b17-0c19-449f-b8f1-7cc033918907",
@@ -2759,10 +2870,12 @@
     "suggestedPrice": 15,
     "purchasePrice": 23.73,
     "estimatedValue": 15,
-    "lastPriceUpdate": "2025-10-21T03:59:18.101Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:59:18.101Z",
     "createdAt": "2025-10-21T03:59:18.101Z",
-    "updatedAt": "2025-10-21T03:59:18.101Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": -8.73,
+    "gainLossPercentage": -36.78887484197219
   },
   {
     "id": "be3a1b87-c36e-40c0-85ca-c0302326539b",
@@ -2803,10 +2916,12 @@
     "suggestedPrice": 26.86,
     "purchasePrice": 34.99,
     "estimatedValue": 26.86,
-    "lastPriceUpdate": "2025-10-21T03:59:20.841Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:59:20.841Z",
     "createdAt": "2025-10-21T03:59:20.841Z",
-    "updatedAt": "2025-10-21T03:59:20.841Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": -8.130000000000003,
+    "gainLossPercentage": -23.235210060017153
   },
   {
     "id": "2c312544-1127-4e95-9918-cddfe3862283",
@@ -2887,11 +3002,13 @@
     "notes": "180g vinyl edition\n\n",
     "suggestedPrice": 22,
     "purchasePrice": 22.89,
-      "estimatedValue": 22,
-    "lastPriceUpdate": "2025-10-21T03:59:26.272Z",
+    "estimatedValue": 22,
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:59:26.272Z",
     "createdAt": "2025-10-21T03:59:26.272Z",
-    "updatedAt": "2025-10-21T03:59:26.272Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": -0.8900000000000006,
+    "gainLossPercentage": -3.888160768894716
   },
   {
     "id": "15d2995a-f774-4340-97a2-6cfd36d1f4a2",
@@ -2929,13 +3046,15 @@
     "storageLocation": "",
     "tags": [],
     "notes": "\"724596962916\" is on the spine of the cover\n\"9629-1\" is on the back of the cover",
-    "suggestedPrice": 22.5,
+    "suggestedPrice": 20,
     "purchasePrice": 29.99,
-    "estimatedValue": 22.5,
-    "lastPriceUpdate": "2025-10-21T03:59:28.931Z",
+    "estimatedValue": 20,
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:59:28.931Z",
     "createdAt": "2025-10-21T03:59:28.931Z",
-    "updatedAt": "2025-10-21T03:59:28.931Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": -9.989999999999998,
+    "gainLossPercentage": -33.31110370123374
   },
   {
     "id": "a59dad62-f310-4314-a200-0cb68229eac9",
@@ -2978,10 +3097,12 @@
     "suggestedPrice": 35,
     "purchasePrice": 23.99,
     "estimatedValue": 35,
-    "lastPriceUpdate": "2025-10-21T03:59:31.567Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:59:31.567Z",
     "createdAt": "2025-10-21T03:59:31.567Z",
-    "updatedAt": "2025-10-21T03:59:31.567Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": 11.010000000000002,
+    "gainLossPercentage": 45.89412255106296
   },
   {
     "id": "b6e8231c-17cb-4afe-89d3-19fa4f220255",
@@ -3021,10 +3142,12 @@
     "suggestedPrice": 4,
     "purchasePrice": 12.83,
     "estimatedValue": 4,
-    "lastPriceUpdate": "2025-10-21T03:59:34.167Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:59:34.167Z",
     "createdAt": "2025-10-21T03:59:34.167Z",
-    "updatedAt": "2025-10-21T03:59:34.167Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": -8.83,
+    "gainLossPercentage": -68.82307092751364
   },
   {
     "id": "ebace44e-31e5-41d2-85cc-2ac45b7ea64e",
@@ -3066,10 +3189,12 @@
     "suggestedPrice": 60.47,
     "purchasePrice": 14.99,
     "estimatedValue": 60.47,
-    "lastPriceUpdate": "2025-10-21T03:59:36.834Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:59:36.834Z",
     "createdAt": "2025-10-21T03:59:36.834Z",
-    "updatedAt": "2025-10-21T03:59:36.834Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": 45.48,
+    "gainLossPercentage": 303.40226817878585
   },
   {
     "id": "c213e177-3d7e-4ce4-86ff-7b1494bd7026",
@@ -3111,10 +3236,12 @@
     "suggestedPrice": 34.88,
     "purchasePrice": 22.86,
     "estimatedValue": 34.88,
-    "lastPriceUpdate": "2025-10-21T03:59:39.482Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:59:39.482Z",
     "createdAt": "2025-10-21T03:59:39.482Z",
-    "updatedAt": "2025-10-21T03:59:39.482Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": 12.020000000000003,
+    "gainLossPercentage": 52.580927384077
   },
   {
     "id": "bf6854ee-c340-4187-8c68-55ca6a6d2e4d",
@@ -3160,10 +3287,12 @@
     "suggestedPrice": 20.79,
     "purchasePrice": 25.59,
     "estimatedValue": 20.79,
-    "lastPriceUpdate": "2025-10-21T03:59:42.092Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:59:42.092Z",
     "createdAt": "2025-10-21T03:59:42.092Z",
-    "updatedAt": "2025-10-21T03:59:42.092Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": -4.800000000000001,
+    "gainLossPercentage": -18.757327080890978
   },
   {
     "id": "2e0ceb9f-861e-4e8d-b083-844f4987be7d",
@@ -3206,10 +3335,12 @@
     "suggestedPrice": 7.56,
     "purchasePrice": 23.26,
     "estimatedValue": 7.56,
-    "lastPriceUpdate": "2025-10-21T03:59:44.942Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:59:44.942Z",
     "createdAt": "2025-10-21T03:59:44.942Z",
-    "updatedAt": "2025-10-21T03:59:44.942Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": -15.700000000000003,
+    "gainLossPercentage": -67.49785038693035
   },
   {
     "id": "00a9c1b1-722b-4041-8cf5-f0277165688a",
@@ -3253,10 +3384,12 @@
     "suggestedPrice": 30.23,
     "purchasePrice": 33.75,
     "estimatedValue": 30.23,
-    "lastPriceUpdate": "2025-10-21T03:59:47.647Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:59:47.647Z",
     "createdAt": "2025-10-21T03:59:47.647Z",
-    "updatedAt": "2025-10-21T03:59:47.647Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": -3.5199999999999996,
+    "gainLossPercentage": -10.429629629629629
   },
   {
     "id": "ae543b56-5cdc-4926-a18b-df9636726566",
@@ -3297,10 +3430,12 @@
     "suggestedPrice": 33,
     "purchasePrice": 21.99,
     "estimatedValue": 33,
-    "lastPriceUpdate": "2025-10-21T03:59:50.259Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:59:50.259Z",
     "createdAt": "2025-10-21T03:59:50.259Z",
-    "updatedAt": "2025-10-21T03:59:50.259Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": 11.010000000000002,
+    "gainLossPercentage": 50.06821282401093
   },
   {
     "id": "e7e2ae9f-fda8-4268-8838-0b94ff881634",
@@ -3341,10 +3476,12 @@
     "suggestedPrice": 24,
     "purchasePrice": 19.98,
     "estimatedValue": 24,
-    "lastPriceUpdate": "2025-10-21T03:59:52.889Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:59:52.889Z",
     "createdAt": "2025-10-21T03:59:52.889Z",
-    "updatedAt": "2025-10-21T03:59:52.889Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": 4.02,
+    "gainLossPercentage": 20.120120120120117
   },
   {
     "id": "ece7b740-7ace-4b45-9faa-9a842dba7351",
@@ -3386,10 +3523,12 @@
     "suggestedPrice": 14.99,
     "purchasePrice": 19.99,
     "estimatedValue": 14.99,
-    "lastPriceUpdate": "2025-10-21T03:59:55.518Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:59:55.518Z",
     "createdAt": "2025-10-21T03:59:55.518Z",
-    "updatedAt": "2025-10-21T03:59:55.518Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": -4.999999999999998,
+    "gainLossPercentage": -25.012506253126553
   },
   {
     "id": "9c392588-0f9c-4f13-a6eb-f10b10603ea6",
@@ -3431,10 +3570,12 @@
     "suggestedPrice": 14.49,
     "purchasePrice": 23.16,
     "estimatedValue": 14.49,
-    "lastPriceUpdate": "2025-10-21T03:59:58.167Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T03:59:58.167Z",
     "createdAt": "2025-10-21T03:59:58.167Z",
-    "updatedAt": "2025-10-21T03:59:58.167Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": -8.67,
+    "gainLossPercentage": -37.43523316062176
   },
   {
     "id": "48bbf00b-c463-4b2b-9b38-6e625bc2882a",
@@ -3479,10 +3620,12 @@
     "suggestedPrice": 7.99,
     "purchasePrice": 14.99,
     "estimatedValue": 7.99,
-    "lastPriceUpdate": "2025-10-21T04:00:00.788Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T04:00:00.788Z",
     "createdAt": "2025-10-21T04:00:00.788Z",
-    "updatedAt": "2025-10-21T04:00:00.788Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": -7,
+    "gainLossPercentage": -46.6977985323549
   },
   {
     "id": "872ccf15-0bba-4d0a-a899-a61c04de57a4",
@@ -3526,10 +3669,12 @@
     "suggestedPrice": 9.99,
     "purchasePrice": 16.99,
     "estimatedValue": 9.99,
-    "lastPriceUpdate": "2025-10-21T04:00:03.432Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T04:00:03.432Z",
     "createdAt": "2025-10-21T04:00:03.432Z",
-    "updatedAt": "2025-10-21T04:00:03.432Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": -6.999999999999998,
+    "gainLossPercentage": -41.200706297822244
   },
   {
     "id": "cae5cab9-3eff-4556-8e40-ed27838d2d18",
@@ -3569,12 +3714,14 @@
     "tags": [],
     "notes": "There is no Plan 9 logo on the labels.\n\n\"MASTERED BY TRUTONE\" is engraved next to the labels.\n\n℗© 1985 Capitol Records, LLC. 1750 N. Vine\nStreet, Hollywood, CA 90028. All rights reserved.",
     "suggestedPrice": 20,
-    "purchasePrice": 16.90,
+    "purchasePrice": 16.9,
     "estimatedValue": 20,
-    "lastPriceUpdate": "2025-10-21T04:00:06.132Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T04:00:06.132Z",
     "createdAt": "2025-10-21T04:00:06.132Z",
-    "updatedAt": "2025-10-21T04:00:06.132Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": 3.1000000000000014,
+    "gainLossPercentage": 18.3431952662722
   },
   {
     "id": "a1036c90-8c26-4c0d-8901-eaa2a4a337a2",
@@ -3615,10 +3762,12 @@
     "suggestedPrice": 29.99,
     "purchasePrice": 34.98,
     "estimatedValue": 29.99,
-    "lastPriceUpdate": "2025-10-21T04:00:11.606Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T04:00:11.606Z",
     "createdAt": "2025-10-21T04:00:11.606Z",
-    "updatedAt": "2025-10-21T04:00:11.606Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": -4.989999999999998,
+    "gainLossPercentage": -14.265294453973695
   },
   {
     "id": "f058f8fe-94b7-4ad5-a1ad-a2d7d31bc3ea",
@@ -3655,13 +3804,15 @@
     "storageLocation": "",
     "tags": [],
     "notes": "Compilation of covers, acoustic versions, live tracks and other rarities.\nHoused in embossed gatefold sleeve with printed insert.\n\nBack cover copyright info reads: \"Reprise Records, A Warner Music Group Company, 777 S Santa Fe Ave., Los Angeles, CA 90021; 1633 Broadway, New York, NY 10019-6708. ©℗ Reprise Records. Made in U.S.A. All rights reserved. Unauthorized duplication is a violation of applicable laws.\" ",
-    "suggestedPrice": 28.43,
+    "suggestedPrice": 28.17,
     "purchasePrice": 33.49,
-    "estimatedValue": 28.43,
-    "lastPriceUpdate": "2025-10-21T04:00:14.330Z",
+    "estimatedValue": 28.17,
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T04:00:14.330Z",
     "createdAt": "2025-10-21T04:00:14.330Z",
-    "updatedAt": "2025-10-21T04:00:14.330Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": -5.32,
+    "gainLossPercentage": -15.88533890713646
   },
   {
     "id": "5ec83dd6-0f2b-4eee-a50b-16f76794bf28",
@@ -3701,13 +3852,15 @@
     "storageLocation": "",
     "tags": [],
     "notes": "2016 Release of 2012 Remaster\nGatefold\n\nComes with a printed inner sleeve and with a poly inner sleeve.\n\nFront sticker:\nBlack Sabbath \n180 GRAM VINYL \n2012 REMASTERED AUDIO \nFEATURES THE CLASSICS:\n\"BLACK SABBATH\"\n& \"N.I.B.\"\nRRI 1871",
-    "suggestedPrice": 24.99,
+    "suggestedPrice": 24.65,
     "purchasePrice": 24.98,
-    "estimatedValue": 24.99,
-    "lastPriceUpdate": "2025-10-21T04:00:17.020Z",
+    "estimatedValue": 24.65,
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T04:00:17.020Z",
     "createdAt": "2025-10-21T04:00:17.020Z",
-    "updatedAt": "2025-10-21T04:00:17.020Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": -0.33000000000000185,
+    "gainLossPercentage": -1.3210568454763885
   },
   {
     "id": "14ff7b2c-397f-4de7-8f38-397b04feddad",
@@ -3795,10 +3948,12 @@
     "suggestedPrice": 40.7,
     "purchasePrice": 61.91,
     "estimatedValue": 40.7,
-    "lastPriceUpdate": "2025-10-21T04:00:22.415Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T04:00:22.415Z",
     "createdAt": "2025-10-21T04:00:22.415Z",
-    "updatedAt": "2025-10-21T04:00:22.415Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": -21.209999999999994,
+    "gainLossPercentage": -34.25940881925374
   },
   {
     "id": "4365f6e9-a49d-432e-82a8-f5b95ac773cb",
@@ -3840,10 +3995,12 @@
     "suggestedPrice": 35,
     "purchasePrice": 28.12,
     "estimatedValue": 35,
-    "lastPriceUpdate": "2025-10-21T04:00:25.052Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T04:00:25.052Z",
     "createdAt": "2025-10-21T04:00:25.052Z",
-    "updatedAt": "2025-10-21T04:00:25.052Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": 6.879999999999999,
+    "gainLossPercentage": 24.466571834992884
   },
   {
     "id": "3ecbe0e8-917f-4d3b-b870-44b644777e09",
@@ -3884,13 +4041,15 @@
     "storageLocation": "",
     "tags": [],
     "notes": "180g black vinyl Pressing. Swappable hands design (per hype sticker). Bonus track included.",
-    "suggestedPrice": 26.31,
+    "suggestedPrice": 26.07,
     "purchasePrice": 41.39,
-    "estimatedValue": 26.31,
-    "lastPriceUpdate": "2025-10-21T04:00:27.691Z",
+    "estimatedValue": 26.07,
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T04:00:27.691Z",
     "createdAt": "2025-10-21T04:00:27.691Z",
-    "updatedAt": "2025-10-21T04:00:27.691Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": -15.32,
+    "gainLossPercentage": -37.01377144237738
   },
   {
     "id": "19b1c135-4bed-47fd-ae20-2573415c7c22",
@@ -3932,10 +4091,12 @@
     "suggestedPrice": 23.99,
     "purchasePrice": 29.99,
     "estimatedValue": 23.99,
-    "lastPriceUpdate": "2025-10-21T04:00:30.439Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T04:00:30.439Z",
     "createdAt": "2025-10-21T04:00:30.439Z",
-    "updatedAt": "2025-10-21T04:00:30.439Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": -6,
+    "gainLossPercentage": -20.00666888962988
   },
   {
     "id": "f07316e4-5105-4a89-b109-eaf438118faa",
@@ -3982,10 +4143,12 @@
     "suggestedPrice": 29.07,
     "purchasePrice": 21.42,
     "estimatedValue": 29.07,
-    "lastPriceUpdate": "2025-10-21T04:00:33.983Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T04:00:33.983Z",
     "createdAt": "2025-10-21T04:00:33.983Z",
-    "updatedAt": "2025-10-21T04:00:33.983Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": 7.649999999999999,
+    "gainLossPercentage": 35.7142857142857
   },
   {
     "id": "d9486dab-fc88-4413-8174-b6eefc1a5518",
@@ -4028,10 +4191,12 @@
     "suggestedPrice": 23.08,
     "purchasePrice": 27.69,
     "estimatedValue": 23.08,
-    "lastPriceUpdate": "2025-10-21T04:00:36.727Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T04:00:36.727Z",
     "createdAt": "2025-10-21T04:00:36.727Z",
-    "updatedAt": "2025-10-21T04:00:36.727Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": -4.610000000000003,
+    "gainLossPercentage": -16.648609606356096
   },
   {
     "id": "d35ae4e5-9acd-4998-b85b-775587e384bb",
@@ -4072,10 +4237,12 @@
     "suggestedPrice": 12.93,
     "purchasePrice": 17.95,
     "estimatedValue": 12.93,
-    "lastPriceUpdate": "2025-10-21T04:00:39.390Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T04:00:39.390Z",
     "createdAt": "2025-10-21T04:00:39.390Z",
-    "updatedAt": "2025-10-21T04:00:39.390Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": -5.02,
+    "gainLossPercentage": -27.966573816155986
   },
   {
     "id": "f1fa1905-b723-4392-97a2-1c66def6a05d",
@@ -4116,10 +4283,12 @@
     "suggestedPrice": 20,
     "purchasePrice": 35.18,
     "estimatedValue": 20,
-    "lastPriceUpdate": "2025-10-21T04:00:42.049Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T04:00:42.049Z",
     "createdAt": "2025-10-21T04:00:42.049Z",
-    "updatedAt": "2025-10-21T04:00:42.049Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": -15.18,
+    "gainLossPercentage": -43.14951677089255
   },
   {
     "id": "212daf60-7e8d-47e2-80c3-869affacfbdf",
@@ -4165,10 +4334,12 @@
     "suggestedPrice": 30,
     "purchasePrice": 39.98,
     "estimatedValue": 30,
-    "lastPriceUpdate": "2025-10-21T04:00:44.754Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T04:00:44.754Z",
     "createdAt": "2025-10-21T04:00:44.754Z",
-    "updatedAt": "2025-10-21T04:00:44.754Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": -9.979999999999997,
+    "gainLossPercentage": -24.962481240620306
   },
   {
     "id": "f564424f-61e3-4d10-9ba6-84e9115cf0bf",
@@ -4207,13 +4378,15 @@
     "storageLocation": "",
     "tags": [],
     "notes": "There is an [url=http://www.discogs.com/release/7540563] EU version[/url] that includes a digital download coupon and is part of the [l197898] series. The US version of this album does not include digital download coupon and is not noted as being part of the [l197898] series.\r\n\r\n180 gram vinyl.\r\n\r\nMade in Holland.\r\n\r\n\r\n\r\n",
-    "suggestedPrice": 20,
+    "suggestedPrice": 23.3,
     "purchasePrice": 27.98,
-    "estimatedValue": 20,
-    "lastPriceUpdate": "2025-10-21T04:00:47.385Z",
+    "estimatedValue": 23.3,
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T04:00:47.385Z",
     "createdAt": "2025-10-21T04:00:47.385Z",
-    "updatedAt": "2025-10-21T04:00:47.385Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": -4.68,
+    "gainLossPercentage": -16.72623302358828
   },
   {
     "id": "c00efe83-8fe3-4da3-96e4-3c51ee43b318",
@@ -4253,10 +4426,12 @@
     "suggestedPrice": 89.99,
     "purchasePrice": 37.99,
     "estimatedValue": 89.99,
-    "lastPriceUpdate": "2025-10-21T04:00:50.068Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T04:00:50.068Z",
     "createdAt": "2025-10-21T04:00:50.068Z",
-    "updatedAt": "2025-10-21T04:00:50.068Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": 51.99999999999999,
+    "gainLossPercentage": 136.87812582258488
   },
   {
     "id": "c97df452-0f25-40d3-8fea-da2fe39bc571",
@@ -4296,10 +4471,12 @@
     "suggestedPrice": 30,
     "purchasePrice": 27.99,
     "estimatedValue": 30,
-    "lastPriceUpdate": "2025-10-21T04:00:52.759Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T04:00:52.759Z",
     "createdAt": "2025-10-21T04:00:52.759Z",
-    "updatedAt": "2025-10-21T04:00:52.759Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": 2.0100000000000016,
+    "gainLossPercentage": 7.181136120042879
   },
   {
     "id": "0592f90c-b8e7-43c5-b9d7-371384a52953",
@@ -4347,10 +4524,12 @@
     "suggestedPrice": 17.44,
     "purchasePrice": 37.31,
     "estimatedValue": 17.44,
-    "lastPriceUpdate": "2025-10-21T04:00:55.451Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T04:00:55.451Z",
     "createdAt": "2025-10-21T04:00:55.451Z",
-    "updatedAt": "2025-10-21T04:00:55.451Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": -19.87,
+    "gainLossPercentage": -53.256499597963014
   },
   {
     "id": "8cc98049-e34d-485c-9f0c-d9438df7d812",
@@ -4393,10 +4572,12 @@
     "suggestedPrice": 100,
     "purchasePrice": 12.99,
     "estimatedValue": 100,
-    "lastPriceUpdate": "2025-10-21T04:00:58.213Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T04:00:58.213Z",
     "createdAt": "2025-10-21T04:00:58.213Z",
-    "updatedAt": "2025-10-21T04:00:58.213Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": 87.01,
+    "gainLossPercentage": 669.8229407236336
   },
   {
     "id": "13bede03-ec24-472f-b65e-de8b2d5e3168",
@@ -4437,9 +4618,11 @@
     "suggestedPrice": 18.75,
     "purchasePrice": 32,
     "estimatedValue": 18.75,
-    "lastPriceUpdate": "2025-10-21T04:01:01.174Z",
+    "lastPriceUpdate": "2025-10-24T01:34:44.785Z",
     "lastSyncedWithDiscogs": "2025-10-21T04:01:01.174Z",
     "createdAt": "2025-10-21T04:01:01.174Z",
-    "updatedAt": "2025-10-21T04:01:01.174Z"
+    "updatedAt": "2025-10-24T01:34:44.785Z",
+    "gainLoss": -13.25,
+    "gainLossPercentage": -41.40625
   }
 ]
