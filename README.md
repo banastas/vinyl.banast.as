@@ -5,6 +5,8 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178c6?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-38bdf8?style=for-the-badge&logo=tailwindcss)](https://tailwindcss.com/)
 
+<img src="https://github.com/banastas/vinyl.banast.as/blob/main/vinyl.banast.as.png?raw=true">
+
 # vinyl.banast.as 🎵
 
 A sleek vinyl record collection manager with Discogs API integration, real-time marketplace pricing, and manual purchase price tracking.
