@@ -1,0 +1,6 @@
+# robots.txt for vinyl.banast.as
+
+User-agent: *
+Allow: /
+
+Sitemap: https://vinyl.banast.as/sitemap.xml
