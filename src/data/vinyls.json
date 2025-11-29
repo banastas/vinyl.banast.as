@@ -4724,5 +4724,50 @@
     "lastPriceUpdate": "2025-11-08T19:33:27.788Z",
     "lastSyncedWithDiscogs": "2025-11-08T19:33:27.788Z",
     "updatedAt": "2025-11-08T19:33:27.788Z"
+  },
+  {
+    "id": "b5683ae5-da38-444c-ac44-80d75149e943",
+    "discogsReleaseId": 35768440,
+    "discogsMasterId": 945581,
+    "artist": "Daft Punk",
+    "artists": [
+      {
+        "id": 1289,
+        "name": "Daft Punk",
+        "role": ""
+      }
+    ],
+    "title": "Human After All Remixes",
+    "label": "Warner",
+    "catalogNumber": "5021732776716",
+    "releaseYear": 2025,
+    "country": "Europe",
+    "format": [
+      "LP",
+      "Album",
+      "Limited Edition"
+    ],
+    "genres": [
+      "Electronic"
+    ],
+    "styles": [
+      "Electro",
+      "House"
+    ],
+    "coverImageUrl": "https://i.discogs.com/jNluzY9pj0vmlo-DJfC95ZnM5nZpcFu-p9UKaoJqTt4/rs:fit/g:sm/q:90/h:600/w:585/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1NzY4/NDQwLTE3NjQzMjkx/MjEtNjA5OC5qcGVn.jpeg",
+    "purchaseDate": "2025-11-28T15:57:31-08:00",
+    "purchaseCurrency": "USD",
+    "purchasePrice": 37.99,
+    "suggestedPrice": 37.9,
+    "estimatedValue": 37.9,
+    "sleeveCondition": "Near Mint (NM)",
+    "mediaCondition": "Near Mint (NM)",
+    "storageLocation": "",
+    "tags": [],
+    "notes": "℗ & © 2006 Daft Life Ltd., (P) 2025 Daft Life Ltd.\n\nMade in Germany.\n\nRunouts are hand etched",
+    "lastPriceUpdate": "2025-11-29T19:07:37.734Z",
+    "lastSyncedWithDiscogs": "2025-11-29T19:07:37.734Z",
+    "createdAt": "2025-11-29T19:07:37.734Z",
+    "updatedAt": "2025-11-29T19:07:37.734Z"
   }
 ]
