@@ -4777,5 +4777,51 @@
     "updatedAt": "2025-11-29T19:10:19.579Z",
     "gainLoss": -0.09000000000000341,
     "gainLossPercentage": -0.2369044485390982
+  },
+  {
+    "id": "e5249312-34a7-4306-86ea-9cd46843c371",
+    "discogsReleaseId": 35692030,
+    "discogsMasterId": 613264,
+    "artist": "Sky Ferreira",
+    "artists": [
+      {
+        "id": 1551658,
+        "name": "Sky Ferreira",
+        "role": ""
+      }
+    ],
+    "title": "Night Time, My Time",
+    "label": "Enjoy The Ride Records",
+    "catalogNumber": "ETR243",
+    "releaseYear": 2025,
+    "country": "US",
+    "format": [
+      "LP",
+      "Album",
+      "Reissue",
+      "Repress"
+    ],
+    "genres": [
+      "Rock",
+      "Pop"
+    ],
+    "styles": [
+      "Pop Rock"
+    ],
+    "coverImageUrl": "https://i.discogs.com/vtts9LZE9b1kLc2vw-zrzVyremwKhKV090IGrhGwtZ8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1Njky/MDMwLTE3NjM0MTc3/MzctNjU5Mi5qcGVn.jpeg",
+    "purchaseDate": "2025-12-05T08:06:26-08:00",
+    "purchaseCurrency": "USD",
+    "purchasePrice": 29.99,
+    "suggestedPrice": 45.99,
+    "estimatedValue": 45.99,
+    "sleeveCondition": "Near Mint (NM)",
+    "mediaCondition": "Near Mint (NM)",
+    "storageLocation": "",
+    "tags": [],
+    "notes": "Enjoy The Ride Records, in partnership with Universal Music Group, proudly presents Sky Ferreira - Night Time, My Time. Available on vinyl again for the first time in over a decade, Ferreira's debut album, which features the singles \"Boys,\" \"You're Not The One,\" and \"I Blame Myself,\" has been pressed across two beautiful color variants. Night Time, My Time is housed in a single LP jacket and includes a 12\" x 24\" double-sided color insert.",
+    "lastPriceUpdate": "2025-12-05T16:10:10.015Z",
+    "lastSyncedWithDiscogs": "2025-12-05T16:10:10.015Z",
+    "createdAt": "2025-12-05T16:10:10.015Z",
+    "updatedAt": "2025-12-05T16:10:10.015Z"
   }
 ]
