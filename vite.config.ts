@@ -1,9 +1,32 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
+function googleAnalyticsPlugin() {
+  return {
+    name: 'google-analytics',
+    transformIndexHtml(html: string) {
+      if (html.includes('G-ZDMFMRZTBZ')) {
+        return html;
+      }
+      
+      const gaCode = `
+    <!-- Google tag (gtag.js) -->
+    <script type="text/javascript" async src="https://www.googletagmanager.com/gtag/js?id=G-ZDMFMRZTBZ"></script>
+    <script type="text/javascript">
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-ZDMFMRZTBZ');
+    </script>`;
+      
+      return html.replace('</head>', `${gaCode}\n  </head>`);
+    },
+  };
+}
+
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
+  plugins: [react(), googleAnalyticsPlugin()],
   build: {
     rollupOptions: {
       output: {
